@@ -82,7 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/Game.cpp">
+			<Option target="Pong"/>
+		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/Game.hpp">
+			<Option target="Pong"/>
+		</Unit>
 		<Unit filename="C:/Users/mickl/ClionProjects/Pong/main.cpp">
+			<Option target="Pong"/>
+		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/utility/Logger.hpp">
 			<Option target="Pong"/>
 		</Unit>
 		<Unit filename="C:/Users/mickl/ClionProjects/Pong/CMakeLists.txt">

@@ -122,6 +122,33 @@ Pong/fast:
 	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/build
 .PHONY : Pong/fast
 
+Game.obj: Game.cpp.obj
+
+.PHONY : Game.obj
+
+# target to build an object file
+Game.cpp.obj:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/Game.cpp.obj
+.PHONY : Game.cpp.obj
+
+Game.i: Game.cpp.i
+
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... Pong
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Game.obj
+	@echo ... Game.i
+	@echo ... Game.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Pong.dir/Game.cpp.obj"
   "CMakeFiles/Pong.dir/main.cpp.obj"
   "Pong.exe"
   "Pong.exe.manifest"

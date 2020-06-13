@@ -6,9 +6,19 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/mickl/ClionProjects/Pong/main.cpp
-iostream
+C:/Users/mickl/ClionProjects/Pong/Game.cpp
+Game.hpp
+C:/Users/mickl/ClionProjects/Pong/Game.hpp
+utility/Logger.hpp
+C:/Users/mickl/ClionProjects/Pong/utility/Logger.hpp
+
+C:/Users/mickl/ClionProjects/Pong/Game.hpp
+memory
 -
 SDL2/SDL.h
+-
+
+C:/Users/mickl/ClionProjects/Pong/utility/Logger.hpp
+iostream
 -
 
