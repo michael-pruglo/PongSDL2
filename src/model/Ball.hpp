@@ -9,10 +9,13 @@
 class Ball : public IRenderable
 {
 public:
-    inline void     move(Position::value_t dx, Position::value_t dy);
+    explicit        Ball(Position pos = Position());
+    void            move(Position::value_t dx, Position::value_t dy);
+    inline void     update() { move(xVelocity, yVelocity); }
     inline Position position() const { return rect.position(); }
 private:
-    Rectangle rect = Rectangle(config::BALL_SIZE, config::BALL_SIZE);
+    Rectangle rect;
+    double xVelocity, yVelocity;
 
 
 public:

@@ -2,6 +2,7 @@
 #define PONG_PONG_HPP
 
 #include <memory>
+#include <SDL2/SDL.h>
 #include "../view/GameWindow.hpp"
 #include "../model/Ball.hpp"
 #include "../model/Player.hpp"
@@ -12,12 +13,13 @@ public:
     void run();
 
 private:
-    void update();
+    void processFrame();
+    void update(const std::vector<SDL_Keycode>& pressedKeys);
 
     Player player1, player2;
     Ball ball;
     GameWindow mainWindow;
-    std::vector<std::unique_ptr<IRenderable>> renderedEntities;
+    std::vector<IRenderable*> renderedEntities;
 
 
 

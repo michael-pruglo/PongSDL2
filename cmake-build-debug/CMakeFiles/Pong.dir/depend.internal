@@ -7,6 +7,7 @@ CMakeFiles/Pong.dir/src/controller/Pong.cpp.obj
  C:/Users/mickl/ClionProjects/Pong/src/controller/Pong.hpp
  C:/Users/mickl/ClionProjects/Pong/src/model/Ball.hpp
  C:/Users/mickl/ClionProjects/Pong/src/model/Player.hpp
+ C:/Users/mickl/ClionProjects/Pong/src/utility/Logger.hpp
  C:/Users/mickl/ClionProjects/Pong/src/utility/Position.hpp
  C:/Users/mickl/ClionProjects/Pong/src/utility/Rectangle.hpp
  C:/Users/mickl/ClionProjects/Pong/src/view/GameWindow.hpp

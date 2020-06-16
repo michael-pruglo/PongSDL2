@@ -34,18 +34,14 @@ bool GameWindow::init(const std::string& title, int width, int height)
     return success = true;
 }
 
-void GameWindow::handleEvents()
+void GameWindow::handleEvents(std::vector<SDL_Keycode>& pressedKeys)
 {
-    SDL_Event event;
-    while (SDL_PollEvent(&event))
+    for (SDL_Event event ; SDL_PollEvent(&event); )
     {
-        switch (event.type)
-        {
-            case SDL_QUIT:
-                open = false;
-                break;
-        }
-
+        if (event.type == SDL_QUIT)
+            open = false;
+        else if (event.type == SDL_KEYDOWN)
+            pressedKeys.push_back(event.key.keysym.sym);
     }
 }
 
@@ -57,18 +53,13 @@ GameWindow::~GameWindow()
     Logger::logMessage("GameWindow object destroyed.");
 }
 
-void GameWindow::render(const std::vector<std::unique_ptr<IRenderable>>& itemsToRender) const
+void GameWindow::render(const std::vector<IRenderable*>& itemsToRender) const
 {
     SDL_RenderClear(renderer);
     for (const auto& entity: itemsToRender)
     {
         for (const auto& sprite: entity->getSprites())
-            renderSprite(sprite);
+            sprite.render(renderer);
     }
     SDL_RenderPresent(renderer);
-}
-
-void GameWindow::renderSprite(const Sprite& sprite) const
-{
-
 }

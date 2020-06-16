@@ -6,6 +6,7 @@ CMakeFiles/Pong.dir/src/controller/Pong.cpp.obj: ../src/controller/Pong.cpp
 CMakeFiles/Pong.dir/src/controller/Pong.cpp.obj: ../src/controller/Pong.hpp
 CMakeFiles/Pong.dir/src/controller/Pong.cpp.obj: ../src/model/Ball.hpp
 CMakeFiles/Pong.dir/src/controller/Pong.cpp.obj: ../src/model/Player.hpp
+CMakeFiles/Pong.dir/src/controller/Pong.cpp.obj: ../src/utility/Logger.hpp
 CMakeFiles/Pong.dir/src/controller/Pong.cpp.obj: ../src/utility/Position.hpp
 CMakeFiles/Pong.dir/src/controller/Pong.cpp.obj: ../src/utility/Rectangle.hpp
 CMakeFiles/Pong.dir/src/controller/Pong.cpp.obj: ../src/view/GameWindow.hpp

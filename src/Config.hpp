@@ -9,10 +9,10 @@ namespace config
     const int PADDLE_WIDTH = 10;
     const int PADDLE_HEIGHT = 80;
     const int PADDLE_X = 80;
-    const double PADDLE_SPEED = 0.08;
+    const double PADDLE_SPEED = 15.0;
 
-    const int BALL_SIZE = 20;
-    const double BALL_SPEED = 0.05;
+    const int BALL_SIZE = 15;
+    const double BALL_SPEED = 1.7;
     const double BALL_ACCELERATION = 1.05;
 
     const double PLAYER_GAP_PERCENT = 0.05;

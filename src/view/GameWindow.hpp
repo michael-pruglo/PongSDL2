@@ -11,9 +11,8 @@ class GameWindow
 public:
     ~GameWindow();
     bool init(const std::string& title, int width, int height);
-    void handleEvents();
-    void render(const std::vector<std::unique_ptr<IRenderable>>& itemsToRender) const;
-    void renderSprite(const Sprite& sprite) const;
+    void handleEvents(std::vector<SDL_Keycode>& pressedKeys);
+    void render(const std::vector<IRenderable*>& itemsToRender) const;
 
     bool isOpen() const { return open; }
 
