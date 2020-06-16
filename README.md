@@ -9,3 +9,5 @@ shared_ptr : `Game::_instance`
 5)
 6)
 7) Game() is a singleton
+
+RenderableEntity derived from Entity 

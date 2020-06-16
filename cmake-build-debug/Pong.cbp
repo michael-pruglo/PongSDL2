@@ -82,16 +82,49 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/mickl/ClionProjects/Pong/Game.cpp">
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/controller/Pong.cpp">
 			<Option target="Pong"/>
 		</Unit>
-		<Unit filename="C:/Users/mickl/ClionProjects/Pong/Game.hpp">
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/controller/Pong.hpp">
 			<Option target="Pong"/>
 		</Unit>
-		<Unit filename="C:/Users/mickl/ClionProjects/Pong/main.cpp">
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/main.cpp">
 			<Option target="Pong"/>
 		</Unit>
-		<Unit filename="C:/Users/mickl/ClionProjects/Pong/utility/Logger.hpp">
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/model/Ball.cpp">
+			<Option target="Pong"/>
+		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/model/Ball.hpp">
+			<Option target="Pong"/>
+		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/model/Player.cpp">
+			<Option target="Pong"/>
+		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/model/Player.hpp">
+			<Option target="Pong"/>
+		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/utility/Logger.hpp">
+			<Option target="Pong"/>
+		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/utility/Rectangle.cpp">
+			<Option target="Pong"/>
+		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/utility/Rectangle.hpp">
+			<Option target="Pong"/>
+		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/view/GameWindow.cpp">
+			<Option target="Pong"/>
+		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/view/GameWindow.hpp">
+			<Option target="Pong"/>
+		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/view/IRenderable.hpp">
+			<Option target="Pong"/>
+		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/view/Sprite.cpp">
+			<Option target="Pong"/>
+		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/view/Sprite.hpp">
 			<Option target="Pong"/>
 		</Unit>
 		<Unit filename="C:/Users/mickl/ClionProjects/Pong/CMakeLists.txt">

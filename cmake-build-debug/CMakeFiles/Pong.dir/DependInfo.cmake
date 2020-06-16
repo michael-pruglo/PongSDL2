@@ -4,8 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/mickl/ClionProjects/Pong/Game.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/Game.cpp.obj"
-  "C:/Users/mickl/ClionProjects/Pong/main.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/main.cpp.obj"
+  "C:/Users/mickl/ClionProjects/Pong/src/controller/Pong.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/controller/Pong.cpp.obj"
+  "C:/Users/mickl/ClionProjects/Pong/src/main.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/main.cpp.obj"
+  "C:/Users/mickl/ClionProjects/Pong/src/model/Ball.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/model/Ball.cpp.obj"
+  "C:/Users/mickl/ClionProjects/Pong/src/model/Player.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/model/Player.cpp.obj"
+  "C:/Users/mickl/ClionProjects/Pong/src/utility/Rectangle.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/utility/Rectangle.cpp.obj"
+  "C:/Users/mickl/ClionProjects/Pong/src/view/GameWindow.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/view/GameWindow.cpp.obj"
+  "C:/Users/mickl/ClionProjects/Pong/src/view/Sprite.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/view/Sprite.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
