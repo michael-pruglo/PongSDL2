@@ -82,10 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/controller/Pong.cpp">
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/controller/GameManager.cpp">
 			<Option target="Pong"/>
 		</Unit>
-		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/controller/Pong.hpp">
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/controller/GameManager.hpp">
+			<Option target="Pong"/>
+		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/controller/IGame.hpp">
+			<Option target="Pong"/>
+		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/controller/IInputManager.hpp">
 			<Option target="Pong"/>
 		</Unit>
 		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/main.cpp">
@@ -101,6 +107,12 @@
 			<Option target="Pong"/>
 		</Unit>
 		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/model/Player.hpp">
+			<Option target="Pong"/>
+		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/model/Pong.cpp">
+			<Option target="Pong"/>
+		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/model/Pong.hpp">
 			<Option target="Pong"/>
 		</Unit>
 		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/utility/Logger.hpp">
@@ -119,6 +131,9 @@
 			<Option target="Pong"/>
 		</Unit>
 		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/view/IRenderable.hpp">
+			<Option target="Pong"/>
+		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/view/Input.hpp">
 			<Option target="Pong"/>
 		</Unit>
 		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/view/Sprite.cpp">

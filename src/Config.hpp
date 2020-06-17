@@ -5,6 +5,8 @@ namespace config
 {
     const int SCREEN_WIDTH = 800;
     const int SCREEN_HEIGHT = 600;
+    const int SCREEN_CENTER_X = SCREEN_WIDTH/2;
+    const int SCREEN_CENTER_Y = SCREEN_HEIGHT/2;
 
     const int PADDLE_WIDTH = 10;
     const int PADDLE_HEIGHT = 80;

@@ -5,13 +5,14 @@
 #include <memory>
 #include <SDL2/SDL.h>
 #include "IRenderable.hpp"
+#include "../controller/IInputManager.hpp"
 
 class GameWindow
 {
 public:
     ~GameWindow();
     bool init(const std::string& title, int width, int height);
-    void handleEvents(std::vector<SDL_Keycode>& pressedKeys);
+    void handleEvents(IInputManager& inputManager);
     void render(const std::vector<IRenderable*>& itemsToRender) const;
 
     bool isOpen() const { return open; }

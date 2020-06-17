@@ -122,32 +122,32 @@ Pong/fast:
 	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/build
 .PHONY : Pong/fast
 
-src/controller/Pong.obj: src/controller/Pong.cpp.obj
+src/controller/GameManager.obj: src/controller/GameManager.cpp.obj
 
-.PHONY : src/controller/Pong.obj
+.PHONY : src/controller/GameManager.obj
 
 # target to build an object file
-src/controller/Pong.cpp.obj:
-	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/controller/Pong.cpp.obj
-.PHONY : src/controller/Pong.cpp.obj
+src/controller/GameManager.cpp.obj:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/controller/GameManager.cpp.obj
+.PHONY : src/controller/GameManager.cpp.obj
 
-src/controller/Pong.i: src/controller/Pong.cpp.i
+src/controller/GameManager.i: src/controller/GameManager.cpp.i
 
-.PHONY : src/controller/Pong.i
+.PHONY : src/controller/GameManager.i
 
 # target to preprocess a source file
-src/controller/Pong.cpp.i:
-	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/controller/Pong.cpp.i
-.PHONY : src/controller/Pong.cpp.i
+src/controller/GameManager.cpp.i:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/controller/GameManager.cpp.i
+.PHONY : src/controller/GameManager.cpp.i
 
-src/controller/Pong.s: src/controller/Pong.cpp.s
+src/controller/GameManager.s: src/controller/GameManager.cpp.s
 
-.PHONY : src/controller/Pong.s
+.PHONY : src/controller/GameManager.s
 
 # target to generate assembly for a file
-src/controller/Pong.cpp.s:
-	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/controller/Pong.cpp.s
-.PHONY : src/controller/Pong.cpp.s
+src/controller/GameManager.cpp.s:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/controller/GameManager.cpp.s
+.PHONY : src/controller/GameManager.cpp.s
 
 src/main.obj: src/main.cpp.obj
 
@@ -229,6 +229,33 @@ src/model/Player.s: src/model/Player.cpp.s
 src/model/Player.cpp.s:
 	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/model/Player.cpp.s
 .PHONY : src/model/Player.cpp.s
+
+src/model/Pong.obj: src/model/Pong.cpp.obj
+
+.PHONY : src/model/Pong.obj
+
+# target to build an object file
+src/model/Pong.cpp.obj:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/model/Pong.cpp.obj
+.PHONY : src/model/Pong.cpp.obj
+
+src/model/Pong.i: src/model/Pong.cpp.i
+
+.PHONY : src/model/Pong.i
+
+# target to preprocess a source file
+src/model/Pong.cpp.i:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/model/Pong.cpp.i
+.PHONY : src/model/Pong.cpp.i
+
+src/model/Pong.s: src/model/Pong.cpp.s
+
+.PHONY : src/model/Pong.s
+
+# target to generate assembly for a file
+src/model/Pong.cpp.s:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/model/Pong.cpp.s
+.PHONY : src/model/Pong.cpp.s
 
 src/utility/Rectangle.obj: src/utility/Rectangle.cpp.obj
 
@@ -320,9 +347,9 @@ help:
 	@echo ... Pong
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... src/controller/Pong.obj
-	@echo ... src/controller/Pong.i
-	@echo ... src/controller/Pong.s
+	@echo ... src/controller/GameManager.obj
+	@echo ... src/controller/GameManager.i
+	@echo ... src/controller/GameManager.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
@@ -332,6 +359,9 @@ help:
 	@echo ... src/model/Player.obj
 	@echo ... src/model/Player.i
 	@echo ... src/model/Player.s
+	@echo ... src/model/Pong.obj
+	@echo ... src/model/Pong.i
+	@echo ... src/model/Pong.s
 	@echo ... src/utility/Rectangle.obj
 	@echo ... src/utility/Rectangle.i
 	@echo ... src/utility/Rectangle.s

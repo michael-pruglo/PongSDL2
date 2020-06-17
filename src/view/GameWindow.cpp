@@ -34,14 +34,14 @@ bool GameWindow::init(const std::string& title, int width, int height)
     return success = true;
 }
 
-void GameWindow::handleEvents(std::vector<SDL_Keycode>& pressedKeys)
+void GameWindow::handleEvents(IInputManager& inputManager)
 {
     for (SDL_Event event ; SDL_PollEvent(&event); )
     {
         if (event.type == SDL_QUIT)
             open = false;
         else if (event.type == SDL_KEYDOWN)
-            pressedKeys.push_back(event.key.keysym.sym);
+            inputManager.handleKeyPress(event.key.keysym.sym);
     }
 }
 
