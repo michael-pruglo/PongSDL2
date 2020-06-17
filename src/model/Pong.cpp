@@ -21,17 +21,33 @@ std::vector<IRenderable *> Pong::getRenderedEntities()
 
 void Pong::updateGameLogic()
 {
+    player1.update();
+    player2.update();
     ball.move(1,1);
 }
+
+
+
+
 
 void PongInputManager::handleKeyPress(SDL_Keycode keycode)
 {
     switch (keycode)
     {
-        case SDLK_UP: pong->player2.moveUp(); break;
-        case SDLK_DOWN: pong->player2.moveDown(); break;
-        case SDLK_w: pong->player1.moveUp(); break;
-        case SDLK_s: pong->player1.moveDown(); break;
+        case SDLK_UP:   pong->player2.startUp(); break;
+        case SDLK_DOWN: pong->player2.startDown(); break;
+        case SDLK_w:    pong->player1.startUp(); break;
+        case SDLK_s:    pong->player1.startDown(); break;
     }
 }
 
+void PongInputManager::handleKeyUp(SDL_Keycode keycode)
+{
+    switch (keycode)
+    {
+        case SDLK_UP:   pong->player2.finishUp(); break;
+        case SDLK_DOWN: pong->player2.finishDown(); break;
+        case SDLK_w:    pong->player1.finishUp(); break;
+        case SDLK_s:    pong->player1.finishDown(); break;
+    }
+}

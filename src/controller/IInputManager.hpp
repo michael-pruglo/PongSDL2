@@ -7,6 +7,7 @@ class IInputManager
 {
 public:
     virtual void handleKeyPress(SDL_Keycode keycode) = 0;
+    virtual void handleKeyUp(SDL_Keycode keycode) = 0;
 };
 
 

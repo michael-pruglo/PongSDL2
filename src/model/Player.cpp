@@ -6,14 +6,9 @@ Player::Player(const std::string& name, Position position) :
 {
 }
 
-void Player::moveUp(Position::value_t val)
+void Player::update()
 {
-    paddle.move(0, -val);
-}
-
-void Player::moveDown(Position::value_t val)
-{
-    paddle.move(0, val);
+    paddle.move(0, paddleVelocity * config::PADDLE_SPEED);
 }
 
 std::vector<Sprite> Player::getSprites() const

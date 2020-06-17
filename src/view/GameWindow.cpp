@@ -40,8 +40,10 @@ void GameWindow::handleEvents(IInputManager& inputManager)
     {
         if (event.type == SDL_QUIT)
             open = false;
-        else if (event.type == SDL_KEYDOWN)
+        else if (event.type == SDL_KEYDOWN && event.key.repeat == 0)
             inputManager.handleKeyPress(event.key.keysym.sym);
+        else if (event.type == SDL_KEYUP && event.key.repeat == 0)
+            inputManager.handleKeyUp(event.key.keysym.sym);
     }
 }
 

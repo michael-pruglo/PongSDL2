@@ -15,11 +15,15 @@ public:
     Position    position() const { return paddle.position(); }
     int         width() const { return paddle.width(); }
     int         height() const { return paddle.height(); }
-    void        moveUp(Position::value_t val = config::PADDLE_SPEED);
-    void        moveDown(Position::value_t val = config::PADDLE_SPEED);
+    void        update();
+    void        startUp() { --paddleVelocity; }
+    void        finishUp() { ++paddleVelocity; }
+    void        startDown() { ++paddleVelocity; }
+    void        finishDown() { --paddleVelocity; }
 private:
     std::string nm;
     Rectangle paddle;
+    int paddleVelocity = 0;
 
 public:
     std::vector<Sprite> getSprites() const override;

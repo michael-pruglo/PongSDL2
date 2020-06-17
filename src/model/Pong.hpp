@@ -14,6 +14,7 @@ class PongInputManager : public IInputManager
 public:
     explicit PongInputManager(Pong* pongInstance) : pong(pongInstance) {}
     void handleKeyPress(SDL_Keycode keycode) override;
+    void handleKeyUp(SDL_Keycode keycode) override;
 private:
     Pong* pong;
 };
