@@ -7,9 +7,9 @@
 class IGame //TODO: rename interfaces to IName
 {
 public:
-    virtual std::string                 getTitle() = 0;
+    virtual std::string                 getTitle() const = 0;
     virtual std::vector<IRenderable*>   getRenderedEntities() = 0;
-    virtual IInputManager&               getInputManager() = 0;
+    virtual IInputManager&              getInputManager() = 0;
 
     virtual void                        updateGameLogic() = 0;
 };

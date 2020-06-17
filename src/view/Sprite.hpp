@@ -9,7 +9,7 @@ class Sprite
 {
 public:
     explicit Sprite(const Rectangle& rectangle);
-    explicit Sprite(const std::string& rectangle);
+    explicit Sprite(const std::string& text, Position position);
 
     void render(SDL_Renderer* renderer) const;
 private:

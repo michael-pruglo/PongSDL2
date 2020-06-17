@@ -8,7 +8,7 @@ Sprite::Sprite(const Rectangle& rectangle)
     rect.h = rectangle.height();
 }
 
-Sprite::Sprite(const std::string& rectangle)
+Sprite::Sprite(const std::string& text, Position position)
 {
 
 }
@@ -19,3 +19,4 @@ void Sprite::render(SDL_Renderer *renderer) const
     SDL_RenderFillRect(renderer, &rect);
     SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
 }
+

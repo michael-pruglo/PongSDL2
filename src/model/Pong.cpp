@@ -1,15 +1,9 @@
 #include "Pong.hpp"
+#include "../utility/Logger.hpp"
 
 Pong::Pong() :
-    player1("Player1", Position(config::PADDLE_X,
-                                config::SCREEN_CENTER_Y-config::PADDLE_HEIGHT/2.)), //middle of the screen
-
-    player2("Player2", Position(config::SCREEN_WIDTH-config::PADDLE_X-config::PADDLE_WIDTH,
-                                config::SCREEN_CENTER_Y-config::PADDLE_HEIGHT/2.)), //middle of the screen
-
-    ball(Position(config::SCREEN_CENTER_X-config::BALL_SIZE/2.,
-                  config::SCREEN_CENTER_Y-config::BALL_SIZE/2.)),
-
+    player1("Player1", Position(config::LEFT_PADDLE_X, config::PADDLE_START_Y)),
+    player2("Player2", Position(config::RIGHT_PADDLE_X, config::PADDLE_START_Y)),
     inputManager(this)
 {
 }
@@ -23,11 +17,52 @@ void Pong::updateGameLogic()
 {
     player1.update();
     player2.update();
-    ball.move(1,1);
+    ball.update();
+
+    handleCollisions();
+
+    if (ball.currPosition().getX() < config::SCORELINE_X)
+    {
+        player2.increaseScore();
+        Logger::logMessage(player2.getName(), " scored! ", player1.getScore(), " - ", player2.getScore());
+        ball = Ball();
+    }
+    if (ball.currPosition().getX() > config::SCREEN_WIDTH - config::SCORELINE_X)
+    {
+        player1.increaseScore();
+        Logger::logMessage(player1.getName(), " scored! ", player1.getScore(), " - ", player2.getScore());
+        ball = Ball();
+    }
 }
 
+void Pong::handleCollisions()
+{
+    //TODO: handle quick collisions
+    if (   collide(player1.getPaddle(), ball.getRect())
+        || collide(player2.getPaddle(), ball.getRect()))
+    {
+        ball.reflectX(); //TODO: bug with corner collisions
+    }
+
+    Rectangle screenBottom(config::SCREEN_WIDTH, 0, Position(0, config::SCREEN_HEIGHT)),
+                 screenTop(config::SCREEN_WIDTH, 0, Position(0, 0));
+
+    if (   collide(ball.getRect(), screenTop)
+        || collide(ball.getRect(), screenBottom))
+    {
+        ball.reflectY();
+    }
 
 
+    if (collide(player1.getPaddle(), screenTop))
+        player1.getPaddle().moveTo(Position(config::LEFT_PADDLE_X, 0));
+    else if (collide(player1.getPaddle(), screenBottom))
+        player1.getPaddle().moveTo(Position(config::LEFT_PADDLE_X, config::SCREEN_HEIGHT-config::PADDLE_HEIGHT));
+    if (collide(player2.getPaddle(), screenTop))
+        player2.getPaddle().moveTo(Position(config::RIGHT_PADDLE_X, 0));
+    else if (collide(player2.getPaddle(), screenBottom))
+        player2.getPaddle().moveTo(Position(config::RIGHT_PADDLE_X, config::SCREEN_HEIGHT-config::PADDLE_HEIGHT));
+}
 
 
 void PongInputManager::handleKeyPress(SDL_Keycode keycode)

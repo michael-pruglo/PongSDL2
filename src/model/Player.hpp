@@ -7,26 +7,39 @@
 #include "../Config.hpp"
 #include "../utility/Rectangle.hpp"
 
-class Player : public IRenderable
+class Player : public IRenderable //TODO: rename to PongPlayer
 {
 public:
-    explicit    Player(const std::string& name = "", Position position = Position());
-    std::string name() const { return nm; }
-    Position    position() const { return paddle.position(); }
-    int         width() const { return paddle.width(); }
-    int         height() const { return paddle.height(); }
-    void        update();
-    void        startUp() { --paddleVelocity; }
-    void        finishUp() { ++paddleVelocity; }
-    void        startDown() { ++paddleVelocity; }
-    void        finishDown() { --paddleVelocity; }
+    explicit            Player(std::string name = "", Position position = Position()) : nm(std::move(name)), paddle(config::PADDLE_WIDTH, config::PADDLE_HEIGHT, position) {}
+
+    inline std::string  getName() const { return nm; }
+    inline int          getScore() const { return score; }
+private:
+    inline void         increaseScore() { ++score; }
+    inline Rectangle&   getPaddle() { return paddle; }
+    inline void         update() { paddle.move(0, paddleVelocity*config::PADDLE_SPEED); }
+    inline void         startUp() { --paddleVelocity; }
+    inline void         finishUp() { ++paddleVelocity; }
+    inline void         startDown() { ++paddleVelocity; }
+    inline void         finishDown() { --paddleVelocity; }
 private:
     std::string nm;
+    int score = 0;
     Rectangle paddle;
     int paddleVelocity = 0;
 
 public:
-    std::vector<Sprite> getSprites() const override;
+    friend class Pong;
+    friend class PongInputManager;
+public:
+    std::vector<Sprite> getSprites() const override
+    {
+        return {
+            Sprite(nm, Position(config::SCREEN_WIDTH/4., 10)),
+            Sprite(std::to_string(score), Position(config::SCREEN_WIDTH/4., 50)),
+            Sprite(paddle)
+        };
+    }
 };
 
 

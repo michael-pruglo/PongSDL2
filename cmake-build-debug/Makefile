@@ -176,60 +176,6 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/model/Ball.obj: src/model/Ball.cpp.obj
-
-.PHONY : src/model/Ball.obj
-
-# target to build an object file
-src/model/Ball.cpp.obj:
-	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/model/Ball.cpp.obj
-.PHONY : src/model/Ball.cpp.obj
-
-src/model/Ball.i: src/model/Ball.cpp.i
-
-.PHONY : src/model/Ball.i
-
-# target to preprocess a source file
-src/model/Ball.cpp.i:
-	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/model/Ball.cpp.i
-.PHONY : src/model/Ball.cpp.i
-
-src/model/Ball.s: src/model/Ball.cpp.s
-
-.PHONY : src/model/Ball.s
-
-# target to generate assembly for a file
-src/model/Ball.cpp.s:
-	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/model/Ball.cpp.s
-.PHONY : src/model/Ball.cpp.s
-
-src/model/Player.obj: src/model/Player.cpp.obj
-
-.PHONY : src/model/Player.obj
-
-# target to build an object file
-src/model/Player.cpp.obj:
-	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/model/Player.cpp.obj
-.PHONY : src/model/Player.cpp.obj
-
-src/model/Player.i: src/model/Player.cpp.i
-
-.PHONY : src/model/Player.i
-
-# target to preprocess a source file
-src/model/Player.cpp.i:
-	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/model/Player.cpp.i
-.PHONY : src/model/Player.cpp.i
-
-src/model/Player.s: src/model/Player.cpp.s
-
-.PHONY : src/model/Player.s
-
-# target to generate assembly for a file
-src/model/Player.cpp.s:
-	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/model/Player.cpp.s
-.PHONY : src/model/Player.cpp.s
-
 src/model/Pong.obj: src/model/Pong.cpp.obj
 
 .PHONY : src/model/Pong.obj
@@ -256,6 +202,33 @@ src/model/Pong.s: src/model/Pong.cpp.s
 src/model/Pong.cpp.s:
 	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/model/Pong.cpp.s
 .PHONY : src/model/Pong.cpp.s
+
+src/utility/Random.obj: src/utility/Random.cpp.obj
+
+.PHONY : src/utility/Random.obj
+
+# target to build an object file
+src/utility/Random.cpp.obj:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/utility/Random.cpp.obj
+.PHONY : src/utility/Random.cpp.obj
+
+src/utility/Random.i: src/utility/Random.cpp.i
+
+.PHONY : src/utility/Random.i
+
+# target to preprocess a source file
+src/utility/Random.cpp.i:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/utility/Random.cpp.i
+.PHONY : src/utility/Random.cpp.i
+
+src/utility/Random.s: src/utility/Random.cpp.s
+
+.PHONY : src/utility/Random.s
+
+# target to generate assembly for a file
+src/utility/Random.cpp.s:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/utility/Random.cpp.s
+.PHONY : src/utility/Random.cpp.s
 
 src/utility/Rectangle.obj: src/utility/Rectangle.cpp.obj
 
@@ -353,15 +326,12 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/model/Ball.obj
-	@echo ... src/model/Ball.i
-	@echo ... src/model/Ball.s
-	@echo ... src/model/Player.obj
-	@echo ... src/model/Player.i
-	@echo ... src/model/Player.s
 	@echo ... src/model/Pong.obj
 	@echo ... src/model/Pong.i
 	@echo ... src/model/Pong.s
+	@echo ... src/utility/Random.obj
+	@echo ... src/utility/Random.i
+	@echo ... src/utility/Random.s
 	@echo ... src/utility/Rectangle.obj
 	@echo ... src/utility/Rectangle.i
 	@echo ... src/utility/Rectangle.s

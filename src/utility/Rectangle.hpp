@@ -11,14 +11,17 @@ public:
                     Rectangle(Position topLeft, Position bottomRight);
 
     inline Position position() const { return pos; }
+    inline Position bottomRight() const { return Position(pos.getX()+w, pos.getY()+h); }
     inline void     move(Position::value_t dx, Position::value_t dy) { pos.move(dx, dy); }
+    inline void     moveTo(Position position) { pos = position; }
     inline int      width() const { return w; }
     inline int      height() const { return h; }
-    friend bool     collide(const Rectangle& rect1, const Rectangle& rect2);
 private:
     Position pos;
     int w, h;
 };
+
+bool collide(const Rectangle& rect1, const Rectangle& rect2);
 
 
 #endif //PONG_RECTANGLE_HPP

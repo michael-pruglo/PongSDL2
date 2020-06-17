@@ -21,26 +21,11 @@ CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/model/Ball.hpp
 CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/model/Player.hpp
 CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/model/Pong.hpp
 CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/utility/Position.hpp
+CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/utility/Random.hpp
 CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/utility/Rectangle.hpp
 CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/view/GameWindow.hpp
 CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/view/IRenderable.hpp
 CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/view/Sprite.hpp
-
-CMakeFiles/Pong.dir/src/model/Ball.cpp.obj: ../src/Config.hpp
-CMakeFiles/Pong.dir/src/model/Ball.cpp.obj: ../src/model/Ball.cpp
-CMakeFiles/Pong.dir/src/model/Ball.cpp.obj: ../src/model/Ball.hpp
-CMakeFiles/Pong.dir/src/model/Ball.cpp.obj: ../src/utility/Position.hpp
-CMakeFiles/Pong.dir/src/model/Ball.cpp.obj: ../src/utility/Rectangle.hpp
-CMakeFiles/Pong.dir/src/model/Ball.cpp.obj: ../src/view/IRenderable.hpp
-CMakeFiles/Pong.dir/src/model/Ball.cpp.obj: ../src/view/Sprite.hpp
-
-CMakeFiles/Pong.dir/src/model/Player.cpp.obj: ../src/Config.hpp
-CMakeFiles/Pong.dir/src/model/Player.cpp.obj: ../src/model/Player.cpp
-CMakeFiles/Pong.dir/src/model/Player.cpp.obj: ../src/model/Player.hpp
-CMakeFiles/Pong.dir/src/model/Player.cpp.obj: ../src/utility/Position.hpp
-CMakeFiles/Pong.dir/src/model/Player.cpp.obj: ../src/utility/Rectangle.hpp
-CMakeFiles/Pong.dir/src/model/Player.cpp.obj: ../src/view/IRenderable.hpp
-CMakeFiles/Pong.dir/src/model/Player.cpp.obj: ../src/view/Sprite.hpp
 
 CMakeFiles/Pong.dir/src/model/Pong.cpp.obj: ../src/Config.hpp
 CMakeFiles/Pong.dir/src/model/Pong.cpp.obj: ../src/controller/IGame.hpp
@@ -49,10 +34,15 @@ CMakeFiles/Pong.dir/src/model/Pong.cpp.obj: ../src/model/Ball.hpp
 CMakeFiles/Pong.dir/src/model/Pong.cpp.obj: ../src/model/Player.hpp
 CMakeFiles/Pong.dir/src/model/Pong.cpp.obj: ../src/model/Pong.cpp
 CMakeFiles/Pong.dir/src/model/Pong.cpp.obj: ../src/model/Pong.hpp
+CMakeFiles/Pong.dir/src/model/Pong.cpp.obj: ../src/utility/Logger.hpp
 CMakeFiles/Pong.dir/src/model/Pong.cpp.obj: ../src/utility/Position.hpp
+CMakeFiles/Pong.dir/src/model/Pong.cpp.obj: ../src/utility/Random.hpp
 CMakeFiles/Pong.dir/src/model/Pong.cpp.obj: ../src/utility/Rectangle.hpp
 CMakeFiles/Pong.dir/src/model/Pong.cpp.obj: ../src/view/IRenderable.hpp
 CMakeFiles/Pong.dir/src/model/Pong.cpp.obj: ../src/view/Sprite.hpp
+
+CMakeFiles/Pong.dir/src/utility/Random.cpp.obj: ../src/utility/Random.cpp
+CMakeFiles/Pong.dir/src/utility/Random.cpp.obj: ../src/utility/Random.hpp
 
 CMakeFiles/Pong.dir/src/utility/Rectangle.cpp.obj: ../src/utility/Position.hpp
 CMakeFiles/Pong.dir/src/utility/Rectangle.cpp.obj: ../src/utility/Rectangle.cpp

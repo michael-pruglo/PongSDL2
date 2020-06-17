@@ -97,13 +97,7 @@
 		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/main.cpp">
 			<Option target="Pong"/>
 		</Unit>
-		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/model/Ball.cpp">
-			<Option target="Pong"/>
-		</Unit>
 		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/model/Ball.hpp">
-			<Option target="Pong"/>
-		</Unit>
-		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/model/Player.cpp">
 			<Option target="Pong"/>
 		</Unit>
 		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/model/Player.hpp">
@@ -116,6 +110,12 @@
 			<Option target="Pong"/>
 		</Unit>
 		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/utility/Logger.hpp">
+			<Option target="Pong"/>
+		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/utility/Random.cpp">
+			<Option target="Pong"/>
+		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/utility/Random.hpp">
 			<Option target="Pong"/>
 		</Unit>
 		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/utility/Rectangle.cpp">

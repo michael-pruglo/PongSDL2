@@ -45,10 +45,8 @@ C:/Users/mickl/ClionProjects/Pong/src/utility/Position.hpp
 C:/Users/mickl/ClionProjects/Pong/src/Config.hpp
 ../utility/Rectangle.hpp
 C:/Users/mickl/ClionProjects/Pong/src/utility/Rectangle.hpp
-
-C:/Users/mickl/ClionProjects/Pong/src/model/Player.cpp
-Player.hpp
-C:/Users/mickl/ClionProjects/Pong/src/model/Player.hpp
+../utility/Random.hpp
+C:/Users/mickl/ClionProjects/Pong/src/utility/Random.hpp
 
 C:/Users/mickl/ClionProjects/Pong/src/model/Player.hpp
 string
@@ -65,6 +63,8 @@ C:/Users/mickl/ClionProjects/Pong/src/utility/Rectangle.hpp
 C:/Users/mickl/ClionProjects/Pong/src/model/Pong.cpp
 Pong.hpp
 C:/Users/mickl/ClionProjects/Pong/src/model/Pong.hpp
+../utility/Logger.hpp
+C:/Users/mickl/ClionProjects/Pong/src/utility/Logger.hpp
 
 C:/Users/mickl/ClionProjects/Pong/src/model/Pong.hpp
 memory
@@ -78,7 +78,15 @@ C:/Users/mickl/ClionProjects/Pong/src/controller/IGame.hpp
 ../controller/IInputManager.hpp
 C:/Users/mickl/ClionProjects/Pong/src/controller/IInputManager.hpp
 
+C:/Users/mickl/ClionProjects/Pong/src/utility/Logger.hpp
+iostream
+-
+
 C:/Users/mickl/ClionProjects/Pong/src/utility/Position.hpp
+
+C:/Users/mickl/ClionProjects/Pong/src/utility/Random.hpp
+random
+-
 
 C:/Users/mickl/ClionProjects/Pong/src/utility/Rectangle.hpp
 Position.hpp
