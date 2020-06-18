@@ -8,8 +8,8 @@ int Random::getInt(int low, int high)
     return dist(rng);
 }
 
-double Random::getAngleInRadians()
+double Random::getAngleInRadians(int lowInDegrees, int highInDegrees)
 {
-    return getInt(0, 314)/100.; //TODO: beautify
+    return getInt(lowInDegrees, highInDegrees)*M_PI/180;
 }
 

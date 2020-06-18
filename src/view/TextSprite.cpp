@@ -19,8 +19,6 @@ void TextSprite::render(SDL_Renderer *renderer) const
     auto texture = SDL_CreateTextureFromSurface(renderer, textSurface);
     int w, h;
     SDL_QueryTexture(texture, NULL, NULL, &w, &h);
-    Logger::logMessage(txt, " texture is of a size ", w, "x", h);
-
     SDL_Rect position{(int)pos.getX(), (int)pos.getY(), w, h};
     SDL_RenderCopy(renderer, texture, NULL, &position);
 

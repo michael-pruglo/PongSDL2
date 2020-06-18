@@ -176,6 +176,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/model/Ball.obj: src/model/Ball.cpp.obj
+
+.PHONY : src/model/Ball.obj
+
+# target to build an object file
+src/model/Ball.cpp.obj:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/model/Ball.cpp.obj
+.PHONY : src/model/Ball.cpp.obj
+
+src/model/Ball.i: src/model/Ball.cpp.i
+
+.PHONY : src/model/Ball.i
+
+# target to preprocess a source file
+src/model/Ball.cpp.i:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/model/Ball.cpp.i
+.PHONY : src/model/Ball.cpp.i
+
+src/model/Ball.s: src/model/Ball.cpp.s
+
+.PHONY : src/model/Ball.s
+
+# target to generate assembly for a file
+src/model/Ball.cpp.s:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/model/Ball.cpp.s
+.PHONY : src/model/Ball.cpp.s
+
 src/model/Pong.obj: src/model/Pong.cpp.obj
 
 .PHONY : src/model/Pong.obj
@@ -202,6 +229,33 @@ src/model/Pong.s: src/model/Pong.cpp.s
 src/model/Pong.cpp.s:
 	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/model/Pong.cpp.s
 .PHONY : src/model/Pong.cpp.s
+
+src/model/PongBot.obj: src/model/PongBot.cpp.obj
+
+.PHONY : src/model/PongBot.obj
+
+# target to build an object file
+src/model/PongBot.cpp.obj:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/model/PongBot.cpp.obj
+.PHONY : src/model/PongBot.cpp.obj
+
+src/model/PongBot.i: src/model/PongBot.cpp.i
+
+.PHONY : src/model/PongBot.i
+
+# target to preprocess a source file
+src/model/PongBot.cpp.i:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/model/PongBot.cpp.i
+.PHONY : src/model/PongBot.cpp.i
+
+src/model/PongBot.s: src/model/PongBot.cpp.s
+
+.PHONY : src/model/PongBot.s
+
+# target to generate assembly for a file
+src/model/PongBot.cpp.s:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/model/PongBot.cpp.s
+.PHONY : src/model/PongBot.cpp.s
 
 src/utility/Random.obj: src/utility/Random.cpp.obj
 
@@ -353,9 +407,15 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/model/Ball.obj
+	@echo ... src/model/Ball.i
+	@echo ... src/model/Ball.s
 	@echo ... src/model/Pong.obj
 	@echo ... src/model/Pong.i
 	@echo ... src/model/Pong.s
+	@echo ... src/model/PongBot.obj
+	@echo ... src/model/PongBot.i
+	@echo ... src/model/PongBot.s
 	@echo ... src/utility/Random.obj
 	@echo ... src/utility/Random.i
 	@echo ... src/utility/Random.s

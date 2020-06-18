@@ -109,10 +109,10 @@
 		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/main.cpp">
 			<Option target="Pong"/>
 		</Unit>
-		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/model/Ball.hpp">
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/model/Ball.cpp">
 			<Option target="Pong"/>
 		</Unit>
-		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/model/Player.hpp">
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/model/Ball.hpp">
 			<Option target="Pong"/>
 		</Unit>
 		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/model/Pong.cpp">
@@ -121,7 +121,19 @@
 		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/model/Pong.hpp">
 			<Option target="Pong"/>
 		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/model/PongBot.cpp">
+			<Option target="Pong"/>
+		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/model/PongBot.hpp">
+			<Option target="Pong"/>
+		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/model/PongPlayer.hpp">
+			<Option target="Pong"/>
+		</Unit>
 		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/utility/Logger.hpp">
+			<Option target="Pong"/>
+		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/utility/MovementVector.hpp">
 			<Option target="Pong"/>
 		</Unit>
 		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/utility/Random.cpp">

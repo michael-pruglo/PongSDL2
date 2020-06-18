@@ -13,12 +13,14 @@ namespace config
     const int SCORELINE_X = 20;
     const int LEFT_PADDLE_X = SCORELINE_X+60,
               RIGHT_PADDLE_X = SCREEN_WIDTH - LEFT_PADDLE_X - PADDLE_WIDTH,
-              PADDLE_START_Y = SCREEN_CENTER_Y - PADDLE_HEIGHT/2;  //middle of the screen
+              PADDLE_START_Y = SCREEN_CENTER_Y - PADDLE_HEIGHT/2;
     const double PADDLE_SPEED = 11.0;
 
     const int BALL_SIZE = 10;
-    const double BALL_SPEED = 3.7;
-    const double BALL_ACCELERATION = 1.05;
+    const double BALL_SPEED_INIT = 3.7;
+    const double BALL_SPEED_MAX = 14.0;
+    const double BALL_ACCELERATION_DELTA = 0.3;
+    const int MAX_BALL_ANGLE = 70;
 
     const std::string FONT_FILENAME = "assets\\fonts\\arial.ttf";
     const int FONT_SIZE_NAME = 20;

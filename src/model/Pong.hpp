@@ -3,9 +3,10 @@
 
 #include <memory>
 #include "Ball.hpp"
-#include "Player.hpp"
+#include "PongPlayer.hpp"
 #include "../controller/IGame.hpp"
 #include "../controller/IInputManager.hpp"
+#include "PongBot.hpp"
 
 class Pong;
 
@@ -28,7 +29,8 @@ public:
     IInputManager&              getInputManager() override { return inputManager; }
     void                        updateGameLogic() override;
 private:
-    Player player1, player2;
+    PongPlayer player1;
+    PongBot player2;
     Ball ball;
 
     void                        handleCollisions();

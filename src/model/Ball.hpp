@@ -2,40 +2,34 @@
 #define PONG_BALL_HPP
 
 #include "../controller/IRenderable.hpp"
-#include "../utility/Position.hpp"
 #include "../Config.hpp"
+#include "../utility/Position.hpp"
 #include "../utility/Rectangle.hpp"
-#include "../utility/Random.hpp"
-#include "../view/RectSprite.hpp"
+#include "../utility/MovementVector.hpp"
 
 class Ball : public IRenderable
 {
 public:
-    explicit            Ball(Position pos = Position(config::SCREEN_CENTER_X-config::BALL_SIZE/2., config::SCREEN_CENTER_Y-config::BALL_SIZE/2.)) :
-                            rect(config::BALL_SIZE, config::BALL_SIZE, pos),
-                            velAngle(Random::getAngleInRadians()) //TODO: choose nice angles
-                            {}
+    explicit                Ball(Position pos = Position(config::SCREEN_CENTER_X-config::BALL_SIZE/2.,
+                                                         config::SCREEN_CENTER_Y-config::BALL_SIZE/2.));
 
-    inline Rectangle    getRect() const { return rect; }
-    inline void         moveTo(Position position) { rect.moveTo(position); }
-    inline void         update() { moveTo(nextPosition()); }
-    inline void         reflectX() { velAngle = M_PI-velAngle; if (velAngle<0) velAngle+=2*M_PI; }
-    inline void         reflectY() { velAngle = -velAngle; if (velAngle<0) velAngle+=2*M_PI; }
-    inline Position     currPosition() const { return rect.position(); }
-    inline Position     nextPosition() const { return Position(currPosition().getX() + std::cos(velAngle) * config::BALL_SPEED,
-                                                               currPosition().getY() + std::sin(velAngle) * config::BALL_SPEED); }
+    inline Rectangle        getRect() const { return rect; }
+    inline MovementVector   getVelocityVector() const { return velocity; }
+    inline void             moveTo(Position position) { rect.moveTo(position); }
+    inline void             update() { moveTo(nextPosition()); }
+    void                    reflectX();
+    void                    reflectY();
+    inline Position         currPosition() const { return rect.position(); }
+    inline Position         nextPosition() const { return velocity.apply(currPosition()); }
 private:
     Rectangle rect;
-    double velAngle;
+    MovementVector velocity;
 
+    void                    increaseSpeed();
+    static double           ballInitAngle();
 
 public:
-    std::vector<std::unique_ptr<ISprite>> getSprites() const override
-    {
-        std::vector<std::unique_ptr<ISprite>> res;
-        res.push_back(std::unique_ptr<ISprite> {new RectSprite(rect)});
-        return res;
-    }
+    std::vector<std::unique_ptr<ISprite>> getSprites() const override;
 };
 
 

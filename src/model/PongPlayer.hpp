@@ -1,5 +1,5 @@
-#ifndef PONG_PLAYER_HPP
-#define PONG_PLAYER_HPP
+#ifndef PONG_PONGPLAYER_HPP
+#define PONG_PONGPLAYER_HPP
 
 #include <string>
 #include "../controller/IRenderable.hpp"
@@ -7,24 +7,33 @@
 #include "../utility/Position.hpp"
 #include "../utility/Rectangle.hpp"
 #include "../view/TextSprite.hpp"
+#include "../view/RectSprite.hpp"
 
-class Player : public IRenderable //TODO: rename to PongPlayer
+class PongPlayer : public IRenderable
 {
 public:
-    explicit            Player(std::string name = "", Position position = Position()) : nm(std::move(name)), paddle(config::PADDLE_WIDTH, config::PADDLE_HEIGHT, position) {}
+    explicit            PongPlayer(std::string name = "", Position position = Position()) :
+                            nm(std::move(name)),
+                            paddle(config::PADDLE_WIDTH, config::PADDLE_HEIGHT, position)
+                        {}
 
     inline std::string  getName() const { return nm; }
     inline int          getScore() const { return score; }
-private:
+
+protected:
     inline void         increaseScore() { ++score; }
     inline Rectangle&   getPaddle() { return paddle; }
     inline void         update() { paddle.move(0, paddleVelocity*config::PADDLE_SPEED); }
-    inline void         startUp() { --paddleVelocity; }
-    inline void         finishUp() { ++paddleVelocity; }
-    inline void         startDown() { ++paddleVelocity; }
-    inline void         finishDown() { --paddleVelocity; }
+    inline void         startUp() { --paddleVelocity; capVelocity(); }
+    inline void         finishUp() { ++paddleVelocity; capVelocity(); }
+    inline void         startDown() { ++paddleVelocity; capVelocity(); }
+    inline void         finishDown() { --paddleVelocity; capVelocity(); }
+    inline void         stop() { paddleVelocity = 0; }
     inline bool         isLeft() const { return paddle.position().getX()==config::LEFT_PADDLE_X; }
+
 private:
+    inline void         capVelocity() { if (paddleVelocity<-1) paddleVelocity=-1; else if (paddleVelocity>1) paddleVelocity=1; }
+protected:
     std::string nm;
     int score = 0;
     Rectangle paddle;
@@ -45,4 +54,4 @@ public:
 };
 
 
-#endif //PONG_PLAYER_HPP
+#endif //PONG_PONGPLAYER_HPP

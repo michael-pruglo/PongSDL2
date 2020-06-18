@@ -9,7 +9,7 @@ class Random
 
 public:
     static int getInt(int low, int high);
-    static double getAngleInRadians();
+    static double getAngleInRadians(int lowInDegrees, int highInDegrees);
 };
 
 #endif //PONG_RANDOM_HPP

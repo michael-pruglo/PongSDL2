@@ -6,7 +6,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/mickl/ClionProjects/Pong/src/controller/GameManager.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/controller/GameManager.cpp.obj"
   "C:/Users/mickl/ClionProjects/Pong/src/main.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/main.cpp.obj"
+  "C:/Users/mickl/ClionProjects/Pong/src/model/Ball.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/model/Ball.cpp.obj"
   "C:/Users/mickl/ClionProjects/Pong/src/model/Pong.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/model/Pong.cpp.obj"
+  "C:/Users/mickl/ClionProjects/Pong/src/model/PongBot.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/model/PongBot.cpp.obj"
   "C:/Users/mickl/ClionProjects/Pong/src/utility/Random.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/utility/Random.cpp.obj"
   "C:/Users/mickl/ClionProjects/Pong/src/utility/Rectangle.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/utility/Rectangle.cpp.obj"
   "C:/Users/mickl/ClionProjects/Pong/src/view/GameWindow.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/view/GameWindow.cpp.obj"
