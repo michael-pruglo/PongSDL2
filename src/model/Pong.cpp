@@ -41,7 +41,7 @@ void Pong::handleCollisions()
     if (   collide(player1.getPaddle(), ball.getRect())
         || collide(player2.getPaddle(), ball.getRect()))
     {
-        ball.reflectX(); //TODO: bug with corner collisions
+        ball.reflectX(); //TODO: bug with corner collisions - bugfix would be to separate vertical collisions, horizontal and diagonal collisions.
     }
 
     Rectangle screenBottom(config::SCREEN_WIDTH, 0, Position(0, config::SCREEN_HEIGHT)),

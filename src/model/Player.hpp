@@ -23,6 +23,7 @@ private:
     inline void         finishUp() { ++paddleVelocity; }
     inline void         startDown() { ++paddleVelocity; }
     inline void         finishDown() { --paddleVelocity; }
+    inline bool         isLeft() const { return paddle.position().getX()==config::LEFT_PADDLE_X; }
 private:
     std::string nm;
     int score = 0;
@@ -36,8 +37,8 @@ public:
     std::vector<std::unique_ptr<ISprite>> getSprites() const override
     {
         std::vector<std::unique_ptr<ISprite>> res;
-        res.push_back(std::unique_ptr<ISprite> {new TextSprite(nm, 10, Position(paddle.position().getX(), 5))});
-        res.push_back(std::unique_ptr<ISprite> {new TextSprite(std::to_string(score), 15, Position(paddle.position().getX(), 50))});
+        res.push_back(std::unique_ptr<ISprite> {new TextSprite(nm, config::FONT_SIZE_NAME, Position(paddle.position().getX()+(isLeft()?1.2:-2)*100, 5))}); //TODO: beautify
+        res.push_back(std::unique_ptr<ISprite> {new TextSprite(std::to_string(score), config::FONT_SIZE_SCORE, Position(paddle.position().getX()+(isLeft()?1.2:-2)*100+30, 50))});
         res.push_back(std::unique_ptr<ISprite> {new RectSprite(paddle)});
         return res;
     }

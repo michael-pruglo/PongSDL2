@@ -20,9 +20,9 @@ namespace config
     const double BALL_SPEED = 3.7;
     const double BALL_ACCELERATION = 1.05;
 
-    const double PLAYER_GAP_PERCENT = 0.05;
-
     const std::string FONT_FILENAME = "assets\\fonts\\arial.ttf";
+    const int FONT_SIZE_NAME = 20;
+    const int FONT_SIZE_SCORE = 40;
 
     const int FPS = 60;
 }
