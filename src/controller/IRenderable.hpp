@@ -2,12 +2,13 @@
 #define PONG_IRENDERABLE_HPP
 
 #include <vector>
-#include "Sprite.hpp"
+#include <memory>
+#include "ISprite.hpp"
 
 class IRenderable
 {
 public:
-    virtual std::vector<Sprite> getSprites() const = 0;
+    virtual std::vector<std::unique_ptr<ISprite>> getSprites() const = 0;
 };
 
 

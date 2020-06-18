@@ -3,8 +3,8 @@
 
 #include <vector>
 #include <memory>
-#include <SDL2/SDL.h>
-#include "IRenderable.hpp"
+#include "SDL.h"
+#include "../controller/IRenderable.hpp"
 #include "../controller/IInputManager.hpp"
 
 class GameWindow

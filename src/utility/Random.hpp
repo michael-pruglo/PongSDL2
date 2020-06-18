@@ -5,7 +5,6 @@
 
 class Random
 {
-    static std::random_device dev;
     static std::mt19937 rng;
 
 public:

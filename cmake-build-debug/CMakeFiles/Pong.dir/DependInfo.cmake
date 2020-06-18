@@ -10,7 +10,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/mickl/ClionProjects/Pong/src/utility/Random.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/utility/Random.cpp.obj"
   "C:/Users/mickl/ClionProjects/Pong/src/utility/Rectangle.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/utility/Rectangle.cpp.obj"
   "C:/Users/mickl/ClionProjects/Pong/src/view/GameWindow.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/view/GameWindow.cpp.obj"
-  "C:/Users/mickl/ClionProjects/Pong/src/view/Sprite.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/view/Sprite.cpp.obj"
+  "C:/Users/mickl/ClionProjects/Pong/src/view/RectSprite.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/view/RectSprite.cpp.obj"
+  "C:/Users/mickl/ClionProjects/Pong/src/view/TextSprite.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/view/TextSprite.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,6 +22,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "C:/msys64/mingw64/include/SDL2"
   )
 
 # Targets to which this target links.

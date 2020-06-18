@@ -1,11 +1,12 @@
 #ifndef PONG_BALL_HPP
 #define PONG_BALL_HPP
 
-#include "../view/IRenderable.hpp"
+#include "../controller/IRenderable.hpp"
 #include "../utility/Position.hpp"
 #include "../Config.hpp"
 #include "../utility/Rectangle.hpp"
 #include "../utility/Random.hpp"
+#include "../view/RectSprite.hpp"
 
 class Ball : public IRenderable
 {
@@ -29,7 +30,12 @@ private:
 
 
 public:
-    std::vector<Sprite> getSprites() const override { return {Sprite(rect)}; }
+    std::vector<std::unique_ptr<ISprite>> getSprites() const override
+    {
+        std::vector<std::unique_ptr<ISprite>> res;
+        res.push_back(std::unique_ptr<ISprite> {new RectSprite(rect)});
+        return res;
+    }
 };
 
 

@@ -3,12 +3,41 @@ project(Pong)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Pong src/main.cpp src/utility/Logger.hpp src/model/Pong.cpp src/model/Pong.hpp src/view/IRenderable.hpp src/view/Sprite.cpp src/view/Sprite.hpp src/model/Player.hpp src/model/Ball.hpp src/view/GameWindow.cpp src/view/GameWindow.hpp src/utility/Rectangle.cpp src/utility/Rectangle.hpp src/view/Input.hpp src/controller/IInputManager.hpp src/controller/GameManager.cpp src/controller/GameManager.hpp src/controller/IGame.hpp src/utility/Random.cpp src/utility/Random.hpp)
+add_executable(Pong src/main.cpp src/utility/Logger.hpp src/model/Pong.cpp src/model/Pong.hpp src/controller/IRenderable.hpp src/model/Player.hpp src/model/Ball.hpp src/view/GameWindow.cpp src/view/GameWindow.hpp src/utility/Rectangle.cpp src/utility/Rectangle.hpp src/controller/IInputManager.hpp src/controller/GameManager.cpp src/controller/GameManager.hpp src/controller/IGame.hpp src/utility/Random.cpp src/utility/Random.hpp src/view/TextSprite.cpp src/view/TextSprite.hpp src/controller/ISprite.hpp src/view/RectSprite.cpp src/view/RectSprite.hpp)
+
+set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++")
+
+INCLUDE(FindPkgConfig)
+
+pkg_check_modules(SDL2 REQUIRED sdl2)
+#pkg_check_modules(SDL2_IMG REQUIRED SDL2_image)
+pkg_check_modules(SDL2_TTF REQUIRED SDL2_ttf)
+#pkg_check_modules(SDL2_MIX REQUIRED SDL2_mixer)
+
+include_directories(
+        ${SDL2_INCLUDE_DIRS}
+#        ${SDL2_IMG_INCLUDE_DIRS}
+        ${SDL2_TTF_INCLUDE_DIRS}
+#        ${SDL2_MIX_INCLUDE_DIRS}
+)
+
+link_directories(
+        ${SDL2_LIBRARY_DIRS}
+#        ${SDL2_IMG_LIBRARY_DIRS}
+        ${SDL2_TTF_LIBRARY_DIRS}
+#        ${SDL2_MIX_LIBRARY_DIRS}
+)
+
+target_link_libraries(Pong
+        ${SDL2_LIBRARIES}
+#        ${SDL2_IMG_LIBRARIES}
+        ${SDL2_TTF_LIBRARIES}
+#        ${SDL2_MIX_LIBRARIES}
+)
 
 
-set(SDL2_DIR C:/mingw64/x86_64-w64-mingw32)
-set(SDL2_LIB_DIR ${SDL2_DIR}/lib)
-
-include_directories(${SDL2_DIR}/include)
-target_link_libraries(${PROJECT_NAME} ${SDL2_LIB_DIR}/libSDL2.dll.a ${SDL2_LIB_DIR}/libSDL2main.a)
+#set(SDL2_LIB_DIR ${PROJECT_SOURCE_DIR}/SDLFiles/lib)
+#set(SDL2_INCLUDE_DIR ${PROJECT_SOURCE_DIR}/SDLFiles/include)
+#include_directories(${SDL2_INCLUDE_DIR})
+#target_link_libraries(${PROJECT_NAME} ${SDL2_LIB_DIR}/libSDL2.dll.a ${SDL2_LIB_DIR}/libSDL2main.a )
 add_definitions(-DSDL_MAIN_HANDLED)

@@ -1,7 +1,7 @@
 #ifndef PONG_IINPUTMANAGER_HPP
 #define PONG_IINPUTMANAGER_HPP
 
-#include <SDL2/SDL_keycode.h>
+#include "SDL_keycode.h"
 
 class IInputManager
 {

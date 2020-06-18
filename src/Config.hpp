@@ -22,6 +22,8 @@ namespace config
 
     const double PLAYER_GAP_PERCENT = 0.05;
 
+    const std::string FONT_FILENAME = "assets\\fonts\\arial.ttf";
+
     const int FPS = 60;
 }
 

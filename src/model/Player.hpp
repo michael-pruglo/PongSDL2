@@ -2,10 +2,11 @@
 #define PONG_PLAYER_HPP
 
 #include <string>
-#include "../view/IRenderable.hpp"
-#include "../utility/Position.hpp"
+#include "../controller/IRenderable.hpp"
 #include "../Config.hpp"
+#include "../utility/Position.hpp"
 #include "../utility/Rectangle.hpp"
+#include "../view/TextSprite.hpp"
 
 class Player : public IRenderable //TODO: rename to PongPlayer
 {
@@ -32,13 +33,13 @@ public:
     friend class Pong;
     friend class PongInputManager;
 public:
-    std::vector<Sprite> getSprites() const override
+    std::vector<std::unique_ptr<ISprite>> getSprites() const override
     {
-        return {
-            Sprite(nm, Position(config::SCREEN_WIDTH/4., 10)),
-            Sprite(std::to_string(score), Position(config::SCREEN_WIDTH/4., 50)),
-            Sprite(paddle)
-        };
+        std::vector<std::unique_ptr<ISprite>> res;
+        res.push_back(std::unique_ptr<ISprite> {new TextSprite(nm, 10, Position(paddle.position().getX(), 5))});
+        res.push_back(std::unique_ptr<ISprite> {new TextSprite(std::to_string(score), 15, Position(paddle.position().getX(), 50))});
+        res.push_back(std::unique_ptr<ISprite> {new RectSprite(paddle)});
+        return res;
     }
 };
 

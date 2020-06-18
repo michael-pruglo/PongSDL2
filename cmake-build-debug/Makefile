@@ -284,32 +284,59 @@ src/view/GameWindow.cpp.s:
 	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/view/GameWindow.cpp.s
 .PHONY : src/view/GameWindow.cpp.s
 
-src/view/Sprite.obj: src/view/Sprite.cpp.obj
+src/view/RectSprite.obj: src/view/RectSprite.cpp.obj
 
-.PHONY : src/view/Sprite.obj
+.PHONY : src/view/RectSprite.obj
 
 # target to build an object file
-src/view/Sprite.cpp.obj:
-	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/view/Sprite.cpp.obj
-.PHONY : src/view/Sprite.cpp.obj
+src/view/RectSprite.cpp.obj:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/view/RectSprite.cpp.obj
+.PHONY : src/view/RectSprite.cpp.obj
 
-src/view/Sprite.i: src/view/Sprite.cpp.i
+src/view/RectSprite.i: src/view/RectSprite.cpp.i
 
-.PHONY : src/view/Sprite.i
+.PHONY : src/view/RectSprite.i
 
 # target to preprocess a source file
-src/view/Sprite.cpp.i:
-	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/view/Sprite.cpp.i
-.PHONY : src/view/Sprite.cpp.i
+src/view/RectSprite.cpp.i:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/view/RectSprite.cpp.i
+.PHONY : src/view/RectSprite.cpp.i
 
-src/view/Sprite.s: src/view/Sprite.cpp.s
+src/view/RectSprite.s: src/view/RectSprite.cpp.s
 
-.PHONY : src/view/Sprite.s
+.PHONY : src/view/RectSprite.s
 
 # target to generate assembly for a file
-src/view/Sprite.cpp.s:
-	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/view/Sprite.cpp.s
-.PHONY : src/view/Sprite.cpp.s
+src/view/RectSprite.cpp.s:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/view/RectSprite.cpp.s
+.PHONY : src/view/RectSprite.cpp.s
+
+src/view/TextSprite.obj: src/view/TextSprite.cpp.obj
+
+.PHONY : src/view/TextSprite.obj
+
+# target to build an object file
+src/view/TextSprite.cpp.obj:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/view/TextSprite.cpp.obj
+.PHONY : src/view/TextSprite.cpp.obj
+
+src/view/TextSprite.i: src/view/TextSprite.cpp.i
+
+.PHONY : src/view/TextSprite.i
+
+# target to preprocess a source file
+src/view/TextSprite.cpp.i:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/view/TextSprite.cpp.i
+.PHONY : src/view/TextSprite.cpp.i
+
+src/view/TextSprite.s: src/view/TextSprite.cpp.s
+
+.PHONY : src/view/TextSprite.s
+
+# target to generate assembly for a file
+src/view/TextSprite.cpp.s:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/view/TextSprite.cpp.s
+.PHONY : src/view/TextSprite.cpp.s
 
 # Help Target
 help:
@@ -338,9 +365,12 @@ help:
 	@echo ... src/view/GameWindow.obj
 	@echo ... src/view/GameWindow.i
 	@echo ... src/view/GameWindow.s
-	@echo ... src/view/Sprite.obj
-	@echo ... src/view/Sprite.i
-	@echo ... src/view/Sprite.s
+	@echo ... src/view/RectSprite.obj
+	@echo ... src/view/RectSprite.i
+	@echo ... src/view/RectSprite.s
+	@echo ... src/view/TextSprite.obj
+	@echo ... src/view/TextSprite.i
+	@echo ... src/view/TextSprite.s
 .PHONY : help
 
 

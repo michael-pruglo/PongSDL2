@@ -8,6 +8,6 @@ shared_ptr : `GameManager::_instance`
 4)
 5)
 6)
-7) GameManager is a singleton, Factory: IGame creates IInputManagers
+7) GameManager is a singleton, Factory: IGame creates IInputManagers, Factory2: IRenderable derives Ball and Player, who construct ISprite
 
 RenderableEntity derived from Entity 

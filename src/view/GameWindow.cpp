@@ -31,6 +31,8 @@ bool GameWindow::init(const std::string& title, int width, int height)
     }
     Logger::logMessage("The renderer for \"", title, "\" window created.");
 
+    //TODO: Init TTF here as well
+
     return success = true;
 }
 
@@ -61,7 +63,7 @@ void GameWindow::render(const std::vector<IRenderable*>& itemsToRender) const
     for (const auto& entity: itemsToRender)
     {
         for (const auto& sprite: entity->getSprites())
-            sprite.render(renderer);
+            sprite->render(renderer);
     }
     SDL_RenderPresent(renderer);
 }

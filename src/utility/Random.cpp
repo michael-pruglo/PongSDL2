@@ -1,7 +1,6 @@
 #include "Random.hpp"
 
-std::random_device Random::dev = std::random_device();
-std::mt19937 Random::rng = std::mt19937(Random::dev());
+std::mt19937 Random::rng = std::mt19937(std::random_device()());
 
 int Random::getInt(int low, int high)
 {

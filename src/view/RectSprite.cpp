@@ -1,6 +1,6 @@
-#include "Sprite.hpp"
+#include "RectSprite.hpp"
 
-Sprite::Sprite(const Rectangle& rectangle)
+RectSprite::RectSprite(const Rectangle& rectangle)
 {
     rect.x = rectangle.position().getX();
     rect.y = rectangle.position().getY();
@@ -8,15 +8,9 @@ Sprite::Sprite(const Rectangle& rectangle)
     rect.h = rectangle.height();
 }
 
-Sprite::Sprite(const std::string& text, Position position)
-{
-
-}
-
-void Sprite::render(SDL_Renderer *renderer) const
+void RectSprite::render(SDL_Renderer *renderer) const
 {
     SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
     SDL_RenderFillRect(renderer, &rect);
     SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
 }
-
