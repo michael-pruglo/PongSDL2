@@ -1,6 +1,7 @@
 #include "RectSprite.hpp"
 
-RectSprite::RectSprite(const Rectangle& rectangle)
+RectSprite::RectSprite(const Rectangle& rectangle, SDL_Color color) :
+    col(color)
 {
     rect.x = rectangle.position().getX();
     rect.y = rectangle.position().getY();
@@ -10,7 +11,6 @@ RectSprite::RectSprite(const Rectangle& rectangle)
 
 void RectSprite::render(SDL_Renderer *renderer) const
 {
-    SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
+    SDL_SetRenderDrawColor(renderer, col.r, col.g, col.b, col.a);
     SDL_RenderFillRect(renderer, &rect);
-    SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
 }

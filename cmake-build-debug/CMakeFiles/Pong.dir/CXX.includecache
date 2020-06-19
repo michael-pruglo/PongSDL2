@@ -112,6 +112,10 @@ C:/Users/mickl/ClionProjects/Pong/src/model/PongBot.hpp
 PongPlayer.hpp
 C:/Users/mickl/ClionProjects/Pong/src/model/PongPlayer.hpp
 
+C:/Users/mickl/ClionProjects/Pong/src/model/PongPlayer.cpp
+PongPlayer.hpp
+C:/Users/mickl/ClionProjects/Pong/src/model/PongPlayer.hpp
+
 C:/Users/mickl/ClionProjects/Pong/src/model/PongPlayer.hpp
 string
 -
@@ -166,6 +170,14 @@ C:/Users/mickl/ClionProjects/Pong/src/utility/Rectangle.hpp
 Position.hpp
 C:/Users/mickl/ClionProjects/Pong/src/utility/Position.hpp
 
+C:/Users/mickl/ClionProjects/Pong/src/view/GameWindow.cpp
+GameWindow.hpp
+C:/Users/mickl/ClionProjects/Pong/src/view/GameWindow.hpp
+../utility/Logger.hpp
+C:/Users/mickl/ClionProjects/Pong/src/utility/Logger.hpp
+../Config.hpp
+C:/Users/mickl/ClionProjects/Pong/src/Config.hpp
+
 C:/Users/mickl/ClionProjects/Pong/src/view/GameWindow.hpp
 vector
 -
@@ -173,6 +185,8 @@ memory
 -
 SDL.h
 C:/Users/mickl/ClionProjects/Pong/src/view/SDL.h
+SDL_ttf.h
+C:/Users/mickl/ClionProjects/Pong/src/view/SDL_ttf.h
 ../controller/IRenderable.hpp
 C:/Users/mickl/ClionProjects/Pong/src/controller/IRenderable.hpp
 ../controller/IInputManager.hpp

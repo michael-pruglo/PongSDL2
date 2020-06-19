@@ -14,7 +14,7 @@ bool CollisionDetector::rectCollide(const Rectangle& rect1, const Rectangle& rec
 
     return left1<=right2 && right1>=left2 && top1<=bottom2 && bottom1>=top2;
 }
-
+//TODO: refactor to reuse code
 bool CollisionDetector::updateAfterCollidingUp(Ball& ball, const Rectangle& wall)
 {
     auto rect = ball.getRect();

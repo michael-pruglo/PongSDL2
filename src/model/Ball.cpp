@@ -39,6 +39,9 @@ double Ball::ballInitAngle()
 std::vector<std::unique_ptr<ISprite>> Ball::getSprites() const
 {
     std::vector<std::unique_ptr<ISprite>> res;
-    res.push_back(std::unique_ptr<ISprite> {new RectSprite(rect)});
+    res.push_back(std::unique_ptr<ISprite> {
+        new RectSprite(rect,
+                      {config::BALL_COLOR.r,config::BALL_COLOR.g,config::BALL_COLOR.b,config::BALL_COLOR.a})
+    });
     return res;
 }

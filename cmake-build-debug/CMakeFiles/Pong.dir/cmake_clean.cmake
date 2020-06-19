@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Pong.dir/src/model/Ball.cpp.obj"
   "CMakeFiles/Pong.dir/src/model/Pong.cpp.obj"
   "CMakeFiles/Pong.dir/src/model/PongBot.cpp.obj"
+  "CMakeFiles/Pong.dir/src/model/PongPlayer.cpp.obj"
   "CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj"
   "CMakeFiles/Pong.dir/src/utility/Random.cpp.obj"
   "CMakeFiles/Pong.dir/src/view/GameWindow.cpp.obj"

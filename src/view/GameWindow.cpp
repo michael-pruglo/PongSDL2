@@ -1,5 +1,6 @@
 #include "GameWindow.hpp"
 #include "../utility/Logger.hpp"
+#include "../Config.hpp"
 
 bool GameWindow::init(const std::string& title, int width, int height)
 {
@@ -31,8 +32,14 @@ bool GameWindow::init(const std::string& title, int width, int height)
     }
     Logger::logMessage("The renderer for \"", title, "\" window created.");
 
-    //TODO: Init TTF here as well
+    if (TTF_Init() == -1)
+    {
+        Logger::logError("Cannot init TTF: ", TTF_GetError());
+        return success = false;
+    }
+    Logger::logMessage("TTF for \"", title, "\" window initialized.");
 
+    Logger::logMessage("==Initialization finished successfully==\n");
     return success = true;
 }
 
@@ -59,6 +66,8 @@ GameWindow::~GameWindow()
 
 void GameWindow::render(const std::vector<IRenderable*>& itemsToRender) const
 {
+    SDL_SetRenderDrawColor(renderer, config::BACKGROUND_COLOR.r, config::BACKGROUND_COLOR.g,
+                                     config::BACKGROUND_COLOR.b, config::BACKGROUND_COLOR.a);
     SDL_RenderClear(renderer);
     for (const auto& entity: itemsToRender)
     {

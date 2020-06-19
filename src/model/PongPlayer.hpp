@@ -13,10 +13,7 @@
 class PongPlayer : public IRenderable
 {
 public:
-    explicit            PongPlayer(std::string name = "", Position position = Position()) :
-                            nm(std::move(name)),
-                            paddle(config::PADDLE_WIDTH, config::PADDLE_HEIGHT, position)
-                        {}
+    explicit            PongPlayer(std::string name = "", Position position = Position());
 
     inline std::string  getName() const { return nm; }
     inline int          getScore() const { return score; }
@@ -45,14 +42,7 @@ public:
     friend class Pong;
     friend class PongInputManager;
 public:
-    std::vector<std::unique_ptr<ISprite>> getSprites() const override
-    {
-        std::vector<std::unique_ptr<ISprite>> res;
-        res.push_back(std::unique_ptr<ISprite> {new TextSprite(nm, config::FONT_SIZE_NAME, Position(paddle.position().getX()+(isLeft()?1.2:-2)*100, 5))}); //TODO: beautify
-        res.push_back(std::unique_ptr<ISprite> {new TextSprite(std::to_string(score), config::FONT_SIZE_SCORE, Position(paddle.position().getX()+(isLeft()?1.2:-2)*100+30, 50))});
-        res.push_back(std::unique_ptr<ISprite> {new RectSprite(paddle)});
-        return res;
-    }
+    std::vector<std::unique_ptr<ISprite>> getSprites() const override;
 };
 
 

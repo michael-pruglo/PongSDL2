@@ -4,6 +4,7 @@
 #include <vector>
 #include <memory>
 #include "SDL.h"
+#include "SDL_ttf.h"
 #include "../controller/IRenderable.hpp"
 #include "../controller/IInputManager.hpp"
 

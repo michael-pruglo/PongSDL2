@@ -127,6 +127,9 @@
 		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/model/PongBot.hpp">
 			<Option target="Pong"/>
 		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/model/PongPlayer.cpp">
+			<Option target="Pong"/>
+		</Unit>
 		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/model/PongPlayer.hpp">
 			<Option target="Pong"/>
 		</Unit>

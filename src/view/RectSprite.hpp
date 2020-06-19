@@ -7,10 +7,11 @@
 class RectSprite : public ISprite
 {
 public:
-    explicit RectSprite(const Rectangle& rectangle);
+    explicit RectSprite(const Rectangle& rectangle, SDL_Color color={255,255,255,255});
     void render(SDL_Renderer *renderer) const override;
 private:
     SDL_Rect rect;
+    SDL_Color col;
 };
 
 

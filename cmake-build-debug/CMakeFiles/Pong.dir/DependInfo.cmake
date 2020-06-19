@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/mickl/ClionProjects/Pong/src/model/Ball.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/model/Ball.cpp.obj"
   "C:/Users/mickl/ClionProjects/Pong/src/model/Pong.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/model/Pong.cpp.obj"
   "C:/Users/mickl/ClionProjects/Pong/src/model/PongBot.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/model/PongBot.cpp.obj"
+  "C:/Users/mickl/ClionProjects/Pong/src/model/PongPlayer.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/model/PongPlayer.cpp.obj"
   "C:/Users/mickl/ClionProjects/Pong/src/utility/CollisionDetector.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj"
   "C:/Users/mickl/ClionProjects/Pong/src/utility/Random.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/utility/Random.cpp.obj"
   "C:/Users/mickl/ClionProjects/Pong/src/view/GameWindow.cpp" "C:/Users/mickl/ClionProjects/Pong/cmake-build-debug/CMakeFiles/Pong.dir/src/view/GameWindow.cpp.obj"

@@ -257,6 +257,33 @@ src/model/PongBot.cpp.s:
 	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/model/PongBot.cpp.s
 .PHONY : src/model/PongBot.cpp.s
 
+src/model/PongPlayer.obj: src/model/PongPlayer.cpp.obj
+
+.PHONY : src/model/PongPlayer.obj
+
+# target to build an object file
+src/model/PongPlayer.cpp.obj:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/model/PongPlayer.cpp.obj
+.PHONY : src/model/PongPlayer.cpp.obj
+
+src/model/PongPlayer.i: src/model/PongPlayer.cpp.i
+
+.PHONY : src/model/PongPlayer.i
+
+# target to preprocess a source file
+src/model/PongPlayer.cpp.i:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/model/PongPlayer.cpp.i
+.PHONY : src/model/PongPlayer.cpp.i
+
+src/model/PongPlayer.s: src/model/PongPlayer.cpp.s
+
+.PHONY : src/model/PongPlayer.s
+
+# target to generate assembly for a file
+src/model/PongPlayer.cpp.s:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/model/PongPlayer.cpp.s
+.PHONY : src/model/PongPlayer.cpp.s
+
 src/utility/CollisionDetector.obj: src/utility/CollisionDetector.cpp.obj
 
 .PHONY : src/utility/CollisionDetector.obj
@@ -416,6 +443,9 @@ help:
 	@echo ... src/model/PongBot.obj
 	@echo ... src/model/PongBot.i
 	@echo ... src/model/PongBot.s
+	@echo ... src/model/PongPlayer.obj
+	@echo ... src/model/PongPlayer.i
+	@echo ... src/model/PongPlayer.s
 	@echo ... src/utility/CollisionDetector.obj
 	@echo ... src/utility/CollisionDetector.i
 	@echo ... src/utility/CollisionDetector.s

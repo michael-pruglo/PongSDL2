@@ -2,20 +2,19 @@
 #include "../utility/Logger.hpp"
 #include "../Config.hpp"
 
-TextSprite::TextSprite(std::string text, int size, Position position) :
+TextSprite::TextSprite(std::string text, int size, Position position, SDL_Color color) :
     txt(std::move(text)),
-    pos(position)
+    pos(position),
+    col(color)
 {
-    if (TTF_Init() == -1)
-        Logger::logError("could not init TTF", TTF_GetError());
     font = TTF_OpenFont(config::FONT_FILENAME.c_str(), size);
-    if (font == nullptr)
-        Logger::logError("Could not open font \"", config::FONT_FILENAME, "\"");
+    if (!font)
+        Logger::logError("Cannot open font \"", config::FONT_FILENAME, "\"");
 }
 
 void TextSprite::render(SDL_Renderer *renderer) const
 {
-    auto textSurface = TTF_RenderText_Solid(font, txt.c_str(), {255,255,255});
+    auto textSurface = TTF_RenderText_Solid(font, txt.c_str(), col);
     auto texture = SDL_CreateTextureFromSurface(renderer, textSurface);
     int w, h;
     SDL_QueryTexture(texture, NULL, NULL, &w, &h);
