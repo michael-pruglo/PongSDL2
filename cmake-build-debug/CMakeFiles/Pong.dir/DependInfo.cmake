@@ -25,7 +25,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "C:/msys64/mingw64/include/SDL2"
+  "C:/msys64/mingw32/include/SDL2"
   )
 
 # Targets to which this target links.

@@ -60,155 +60,155 @@ CMakeFiles/Pong.dir/src/main.cpp.obj: CMakeFiles/Pong.dir/flags.make
 CMakeFiles/Pong.dir/src/main.cpp.obj: CMakeFiles/Pong.dir/includes_CXX.rsp
 CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mickl\ClionProjects\Pong\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Pong.dir/src/main.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pong.dir\src\main.cpp.obj -c C:\Users\mickl\ClionProjects\Pong\src\main.cpp
+	C:\msys64\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pong.dir\src\main.cpp.obj -c C:\Users\mickl\ClionProjects\Pong\src\main.cpp
 
 CMakeFiles/Pong.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong.dir/src/main.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mickl\ClionProjects\Pong\src\main.cpp > CMakeFiles\Pong.dir\src\main.cpp.i
+	C:\msys64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mickl\ClionProjects\Pong\src\main.cpp > CMakeFiles\Pong.dir\src\main.cpp.i
 
 CMakeFiles/Pong.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong.dir/src/main.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mickl\ClionProjects\Pong\src\main.cpp -o CMakeFiles\Pong.dir\src\main.cpp.s
+	C:\msys64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mickl\ClionProjects\Pong\src\main.cpp -o CMakeFiles\Pong.dir\src\main.cpp.s
 
 CMakeFiles/Pong.dir/src/model/Pong.cpp.obj: CMakeFiles/Pong.dir/flags.make
 CMakeFiles/Pong.dir/src/model/Pong.cpp.obj: CMakeFiles/Pong.dir/includes_CXX.rsp
 CMakeFiles/Pong.dir/src/model/Pong.cpp.obj: ../src/model/Pong.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mickl\ClionProjects\Pong\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Pong.dir/src/model/Pong.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pong.dir\src\model\Pong.cpp.obj -c C:\Users\mickl\ClionProjects\Pong\src\model\Pong.cpp
+	C:\msys64\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pong.dir\src\model\Pong.cpp.obj -c C:\Users\mickl\ClionProjects\Pong\src\model\Pong.cpp
 
 CMakeFiles/Pong.dir/src/model/Pong.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong.dir/src/model/Pong.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mickl\ClionProjects\Pong\src\model\Pong.cpp > CMakeFiles\Pong.dir\src\model\Pong.cpp.i
+	C:\msys64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mickl\ClionProjects\Pong\src\model\Pong.cpp > CMakeFiles\Pong.dir\src\model\Pong.cpp.i
 
 CMakeFiles/Pong.dir/src/model/Pong.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong.dir/src/model/Pong.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mickl\ClionProjects\Pong\src\model\Pong.cpp -o CMakeFiles\Pong.dir\src\model\Pong.cpp.s
+	C:\msys64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mickl\ClionProjects\Pong\src\model\Pong.cpp -o CMakeFiles\Pong.dir\src\model\Pong.cpp.s
 
 CMakeFiles/Pong.dir/src/view/GameWindow.cpp.obj: CMakeFiles/Pong.dir/flags.make
 CMakeFiles/Pong.dir/src/view/GameWindow.cpp.obj: CMakeFiles/Pong.dir/includes_CXX.rsp
 CMakeFiles/Pong.dir/src/view/GameWindow.cpp.obj: ../src/view/GameWindow.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mickl\ClionProjects\Pong\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Pong.dir/src/view/GameWindow.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pong.dir\src\view\GameWindow.cpp.obj -c C:\Users\mickl\ClionProjects\Pong\src\view\GameWindow.cpp
+	C:\msys64\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pong.dir\src\view\GameWindow.cpp.obj -c C:\Users\mickl\ClionProjects\Pong\src\view\GameWindow.cpp
 
 CMakeFiles/Pong.dir/src/view/GameWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong.dir/src/view/GameWindow.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mickl\ClionProjects\Pong\src\view\GameWindow.cpp > CMakeFiles\Pong.dir\src\view\GameWindow.cpp.i
+	C:\msys64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mickl\ClionProjects\Pong\src\view\GameWindow.cpp > CMakeFiles\Pong.dir\src\view\GameWindow.cpp.i
 
 CMakeFiles/Pong.dir/src/view/GameWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong.dir/src/view/GameWindow.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mickl\ClionProjects\Pong\src\view\GameWindow.cpp -o CMakeFiles\Pong.dir\src\view\GameWindow.cpp.s
+	C:\msys64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mickl\ClionProjects\Pong\src\view\GameWindow.cpp -o CMakeFiles\Pong.dir\src\view\GameWindow.cpp.s
 
 CMakeFiles/Pong.dir/src/controller/GameManager.cpp.obj: CMakeFiles/Pong.dir/flags.make
 CMakeFiles/Pong.dir/src/controller/GameManager.cpp.obj: CMakeFiles/Pong.dir/includes_CXX.rsp
 CMakeFiles/Pong.dir/src/controller/GameManager.cpp.obj: ../src/controller/GameManager.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mickl\ClionProjects\Pong\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Pong.dir/src/controller/GameManager.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pong.dir\src\controller\GameManager.cpp.obj -c C:\Users\mickl\ClionProjects\Pong\src\controller\GameManager.cpp
+	C:\msys64\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pong.dir\src\controller\GameManager.cpp.obj -c C:\Users\mickl\ClionProjects\Pong\src\controller\GameManager.cpp
 
 CMakeFiles/Pong.dir/src/controller/GameManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong.dir/src/controller/GameManager.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mickl\ClionProjects\Pong\src\controller\GameManager.cpp > CMakeFiles\Pong.dir\src\controller\GameManager.cpp.i
+	C:\msys64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mickl\ClionProjects\Pong\src\controller\GameManager.cpp > CMakeFiles\Pong.dir\src\controller\GameManager.cpp.i
 
 CMakeFiles/Pong.dir/src/controller/GameManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong.dir/src/controller/GameManager.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mickl\ClionProjects\Pong\src\controller\GameManager.cpp -o CMakeFiles\Pong.dir\src\controller\GameManager.cpp.s
+	C:\msys64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mickl\ClionProjects\Pong\src\controller\GameManager.cpp -o CMakeFiles\Pong.dir\src\controller\GameManager.cpp.s
 
 CMakeFiles/Pong.dir/src/utility/Random.cpp.obj: CMakeFiles/Pong.dir/flags.make
 CMakeFiles/Pong.dir/src/utility/Random.cpp.obj: CMakeFiles/Pong.dir/includes_CXX.rsp
 CMakeFiles/Pong.dir/src/utility/Random.cpp.obj: ../src/utility/Random.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mickl\ClionProjects\Pong\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Pong.dir/src/utility/Random.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pong.dir\src\utility\Random.cpp.obj -c C:\Users\mickl\ClionProjects\Pong\src\utility\Random.cpp
+	C:\msys64\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pong.dir\src\utility\Random.cpp.obj -c C:\Users\mickl\ClionProjects\Pong\src\utility\Random.cpp
 
 CMakeFiles/Pong.dir/src/utility/Random.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong.dir/src/utility/Random.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mickl\ClionProjects\Pong\src\utility\Random.cpp > CMakeFiles\Pong.dir\src\utility\Random.cpp.i
+	C:\msys64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mickl\ClionProjects\Pong\src\utility\Random.cpp > CMakeFiles\Pong.dir\src\utility\Random.cpp.i
 
 CMakeFiles/Pong.dir/src/utility/Random.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong.dir/src/utility/Random.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mickl\ClionProjects\Pong\src\utility\Random.cpp -o CMakeFiles\Pong.dir\src\utility\Random.cpp.s
+	C:\msys64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mickl\ClionProjects\Pong\src\utility\Random.cpp -o CMakeFiles\Pong.dir\src\utility\Random.cpp.s
 
 CMakeFiles/Pong.dir/src/view/TextSprite.cpp.obj: CMakeFiles/Pong.dir/flags.make
 CMakeFiles/Pong.dir/src/view/TextSprite.cpp.obj: CMakeFiles/Pong.dir/includes_CXX.rsp
 CMakeFiles/Pong.dir/src/view/TextSprite.cpp.obj: ../src/view/TextSprite.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mickl\ClionProjects\Pong\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Pong.dir/src/view/TextSprite.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pong.dir\src\view\TextSprite.cpp.obj -c C:\Users\mickl\ClionProjects\Pong\src\view\TextSprite.cpp
+	C:\msys64\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pong.dir\src\view\TextSprite.cpp.obj -c C:\Users\mickl\ClionProjects\Pong\src\view\TextSprite.cpp
 
 CMakeFiles/Pong.dir/src/view/TextSprite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong.dir/src/view/TextSprite.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mickl\ClionProjects\Pong\src\view\TextSprite.cpp > CMakeFiles\Pong.dir\src\view\TextSprite.cpp.i
+	C:\msys64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mickl\ClionProjects\Pong\src\view\TextSprite.cpp > CMakeFiles\Pong.dir\src\view\TextSprite.cpp.i
 
 CMakeFiles/Pong.dir/src/view/TextSprite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong.dir/src/view/TextSprite.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mickl\ClionProjects\Pong\src\view\TextSprite.cpp -o CMakeFiles\Pong.dir\src\view\TextSprite.cpp.s
+	C:\msys64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mickl\ClionProjects\Pong\src\view\TextSprite.cpp -o CMakeFiles\Pong.dir\src\view\TextSprite.cpp.s
 
 CMakeFiles/Pong.dir/src/view/RectSprite.cpp.obj: CMakeFiles/Pong.dir/flags.make
 CMakeFiles/Pong.dir/src/view/RectSprite.cpp.obj: CMakeFiles/Pong.dir/includes_CXX.rsp
 CMakeFiles/Pong.dir/src/view/RectSprite.cpp.obj: ../src/view/RectSprite.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mickl\ClionProjects\Pong\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Pong.dir/src/view/RectSprite.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pong.dir\src\view\RectSprite.cpp.obj -c C:\Users\mickl\ClionProjects\Pong\src\view\RectSprite.cpp
+	C:\msys64\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pong.dir\src\view\RectSprite.cpp.obj -c C:\Users\mickl\ClionProjects\Pong\src\view\RectSprite.cpp
 
 CMakeFiles/Pong.dir/src/view/RectSprite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong.dir/src/view/RectSprite.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mickl\ClionProjects\Pong\src\view\RectSprite.cpp > CMakeFiles\Pong.dir\src\view\RectSprite.cpp.i
+	C:\msys64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mickl\ClionProjects\Pong\src\view\RectSprite.cpp > CMakeFiles\Pong.dir\src\view\RectSprite.cpp.i
 
 CMakeFiles/Pong.dir/src/view/RectSprite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong.dir/src/view/RectSprite.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mickl\ClionProjects\Pong\src\view\RectSprite.cpp -o CMakeFiles\Pong.dir\src\view\RectSprite.cpp.s
+	C:\msys64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mickl\ClionProjects\Pong\src\view\RectSprite.cpp -o CMakeFiles\Pong.dir\src\view\RectSprite.cpp.s
 
 CMakeFiles/Pong.dir/src/model/PongBot.cpp.obj: CMakeFiles/Pong.dir/flags.make
 CMakeFiles/Pong.dir/src/model/PongBot.cpp.obj: CMakeFiles/Pong.dir/includes_CXX.rsp
 CMakeFiles/Pong.dir/src/model/PongBot.cpp.obj: ../src/model/PongBot.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mickl\ClionProjects\Pong\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Pong.dir/src/model/PongBot.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pong.dir\src\model\PongBot.cpp.obj -c C:\Users\mickl\ClionProjects\Pong\src\model\PongBot.cpp
+	C:\msys64\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pong.dir\src\model\PongBot.cpp.obj -c C:\Users\mickl\ClionProjects\Pong\src\model\PongBot.cpp
 
 CMakeFiles/Pong.dir/src/model/PongBot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong.dir/src/model/PongBot.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mickl\ClionProjects\Pong\src\model\PongBot.cpp > CMakeFiles\Pong.dir\src\model\PongBot.cpp.i
+	C:\msys64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mickl\ClionProjects\Pong\src\model\PongBot.cpp > CMakeFiles\Pong.dir\src\model\PongBot.cpp.i
 
 CMakeFiles/Pong.dir/src/model/PongBot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong.dir/src/model/PongBot.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mickl\ClionProjects\Pong\src\model\PongBot.cpp -o CMakeFiles\Pong.dir\src\model\PongBot.cpp.s
+	C:\msys64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mickl\ClionProjects\Pong\src\model\PongBot.cpp -o CMakeFiles\Pong.dir\src\model\PongBot.cpp.s
 
 CMakeFiles/Pong.dir/src/model/Ball.cpp.obj: CMakeFiles/Pong.dir/flags.make
 CMakeFiles/Pong.dir/src/model/Ball.cpp.obj: CMakeFiles/Pong.dir/includes_CXX.rsp
 CMakeFiles/Pong.dir/src/model/Ball.cpp.obj: ../src/model/Ball.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mickl\ClionProjects\Pong\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Pong.dir/src/model/Ball.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pong.dir\src\model\Ball.cpp.obj -c C:\Users\mickl\ClionProjects\Pong\src\model\Ball.cpp
+	C:\msys64\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pong.dir\src\model\Ball.cpp.obj -c C:\Users\mickl\ClionProjects\Pong\src\model\Ball.cpp
 
 CMakeFiles/Pong.dir/src/model/Ball.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong.dir/src/model/Ball.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mickl\ClionProjects\Pong\src\model\Ball.cpp > CMakeFiles\Pong.dir\src\model\Ball.cpp.i
+	C:\msys64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mickl\ClionProjects\Pong\src\model\Ball.cpp > CMakeFiles\Pong.dir\src\model\Ball.cpp.i
 
 CMakeFiles/Pong.dir/src/model/Ball.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong.dir/src/model/Ball.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mickl\ClionProjects\Pong\src\model\Ball.cpp -o CMakeFiles\Pong.dir\src\model\Ball.cpp.s
+	C:\msys64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mickl\ClionProjects\Pong\src\model\Ball.cpp -o CMakeFiles\Pong.dir\src\model\Ball.cpp.s
 
 CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: CMakeFiles/Pong.dir/flags.make
 CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: CMakeFiles/Pong.dir/includes_CXX.rsp
 CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: ../src/utility/CollisionDetector.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mickl\ClionProjects\Pong\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pong.dir\src\utility\CollisionDetector.cpp.obj -c C:\Users\mickl\ClionProjects\Pong\src\utility\CollisionDetector.cpp
+	C:\msys64\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pong.dir\src\utility\CollisionDetector.cpp.obj -c C:\Users\mickl\ClionProjects\Pong\src\utility\CollisionDetector.cpp
 
 CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mickl\ClionProjects\Pong\src\utility\CollisionDetector.cpp > CMakeFiles\Pong.dir\src\utility\CollisionDetector.cpp.i
+	C:\msys64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mickl\ClionProjects\Pong\src\utility\CollisionDetector.cpp > CMakeFiles\Pong.dir\src\utility\CollisionDetector.cpp.i
 
 CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mickl\ClionProjects\Pong\src\utility\CollisionDetector.cpp -o CMakeFiles\Pong.dir\src\utility\CollisionDetector.cpp.s
+	C:\msys64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mickl\ClionProjects\Pong\src\utility\CollisionDetector.cpp -o CMakeFiles\Pong.dir\src\utility\CollisionDetector.cpp.s
 
 CMakeFiles/Pong.dir/src/model/PongPlayer.cpp.obj: CMakeFiles/Pong.dir/flags.make
 CMakeFiles/Pong.dir/src/model/PongPlayer.cpp.obj: CMakeFiles/Pong.dir/includes_CXX.rsp
 CMakeFiles/Pong.dir/src/model/PongPlayer.cpp.obj: ../src/model/PongPlayer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mickl\ClionProjects\Pong\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Pong.dir/src/model/PongPlayer.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pong.dir\src\model\PongPlayer.cpp.obj -c C:\Users\mickl\ClionProjects\Pong\src\model\PongPlayer.cpp
+	C:\msys64\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pong.dir\src\model\PongPlayer.cpp.obj -c C:\Users\mickl\ClionProjects\Pong\src\model\PongPlayer.cpp
 
 CMakeFiles/Pong.dir/src/model/PongPlayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pong.dir/src/model/PongPlayer.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mickl\ClionProjects\Pong\src\model\PongPlayer.cpp > CMakeFiles\Pong.dir\src\model\PongPlayer.cpp.i
+	C:\msys64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mickl\ClionProjects\Pong\src\model\PongPlayer.cpp > CMakeFiles\Pong.dir\src\model\PongPlayer.cpp.i
 
 CMakeFiles/Pong.dir/src/model/PongPlayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pong.dir/src/model/PongPlayer.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mickl\ClionProjects\Pong\src\model\PongPlayer.cpp -o CMakeFiles\Pong.dir\src\model\PongPlayer.cpp.s
+	C:\msys64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mickl\ClionProjects\Pong\src\model\PongPlayer.cpp -o CMakeFiles\Pong.dir\src\model\PongPlayer.cpp.s
 
 # Object files for target Pong
 Pong_OBJECTS = \

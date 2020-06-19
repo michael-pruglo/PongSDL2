@@ -2,7 +2,7 @@
 Classic Pong using SDL2. <p><p>
 
 ### Getting started
-Just launch Pong.exe. <p>
+Just launch `cmake-build-release/Pong.exe`. <p>
 There are two modes of playing available: "player vs player" or "player vs bot".
 The former is the default mode.
 To activate the latter, you can pass a command line argument "`BOT`": 
@@ -10,7 +10,9 @@ To activate the latter, you can pass a command line argument "`BOT`":
 > Pong.exe BOT
 ```
 ##### Additional info:
-The project was built and compiled using SDL2 v2.0.12, SDL2_ttf v2.0.15 and MinGW for Windows x64.
+The project was built and compiled using SDL2 v2.0.12, SDL2_ttf v2.0.15 and MinGW for ~~Windows x64~~.\
+ [**UPD:** I rebuilt the project using mingw32 and SDL2 version i686. Now it should run on Win32.\
+  For built Win64 app, see the previous commit.]
 <p><p><p>
 
 ### Requirements:
