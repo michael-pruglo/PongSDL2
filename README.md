@@ -19,12 +19,25 @@ The project was built and compiled using SDL2 v2.0.12, SDL2_ttf v2.0.15 and MinG
 - [x] provide a README overview file
 
 1. <h5>Demonstrate C++ knowledge (not C)</h5> 
-     variadic templates : `utility/Logger.hpp`
-     shared_ptr : `GameManager::_instance`, `Pong::player`
-     `auto[dx, dy]` : `Collision Detector`
-     random 
+    * variadic templates with fold expressions in `utility/Logger.hpp`:
+    ```c++
+    template<typename... Args>
+    static void logMessage(const Args&... args)
+    {
+        (std::cout << ... << args) << "\n";
+    }
+    ```
+
+    * shared_ptr (e.g. in `GameManager::_instance`, `Pong::players`)
+    * structured binding `auto[dx, dy]` : `CollisionDetector`
+    * random using `std::mt19937` and `std::uniform_int_distribution` in `Random`
+
 2. <h5>Demonstrate OOP knowledge and the ability to use it</h5>
-     dd
+  The architecture was designed based on small single-purposed classes that encapsulate data.\
+  The architecture relies on the use of interfaces and inheritance.\
+  Which also gives chances to leverage the power of polymorphism.\
+  The code follows RAII principle, favors containers and wrappers like smart pointers.\
+  
 3. <h5>Demonstrate the ability to use STL</h5>
      The needs of my project regarding STL don't go much further than `std::vector` and `std::pair`.
 4. <h5>Neatly structured code</h5>
@@ -36,7 +49,7 @@ The project was built and compiled using SDL2 v2.0.12, SDL2_ttf v2.0.15 and MinG
      See CMakeLists.txt for details.
 6. <h5>Demonstrate familiarity with the architecture of game engines</h5>
      Class `controller/GameManager` provides a wrapper around (any) game. `GameManager::run()` describes the main game loop:
-     ```c++
+    ```c++
     while (mainWindow.isOpen())
     {
             ...   
@@ -54,7 +67,11 @@ The project was built and compiled using SDL2 v2.0.12, SDL2_ttf v2.0.15 and MinG
    Class `view/GameWindow` handles the graphical tasks specifically. It initializes and frees resources in it's constructor/destructor, 
    polls the event queue, and implements the update of the double-buffered renderer.
 7. <h5>Apply some of Design Patterns (not only a Singleton)</h5>
-     GameManager is a singleton, Factory: IGame creates IInputManagers, Factory2: IRenderable derives Ball and PongPlayer, who construct ISprite
-     Controllers are a kind of Mediator, MVC
+    - **Factory**: ![](assets/diagrams/SpriteFactory.JPG)
+    The client code (rending window) knows only about the interface `ISprite`, inheritants of which are created on the factories inhereting "IRenderable". <p>
+    - **Singleton**: class `GameManager` is a singleton, and can handle any kind of game (declared by `IGame`). We don't need more than one instance. <p>
+    - **Factory2**: ![](assets/diagrams/InputManagerFactory.JPG)
+    IGame creates IInputManagers. As we have an abstract `GameManager`, it's nice to prepare the project for other games. And every game needs its own input manager to handle events. <p>
+    - **MVC pattern**. And the controller classes are a kind of **Mediators**.
 8. <h5>The code has to compile under Win32, Ubuntu 16.04 x64 or 18.04 x64 or it has to be run with an executable file.</h5>
      The game can be started by running `Pong.exe [BOT]`. 
