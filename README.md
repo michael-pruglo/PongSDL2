@@ -33,10 +33,10 @@ The project was built and compiled using SDL2 v2.0.12, SDL2_ttf v2.0.15 and MinG
     * random using `std::mt19937` and `std::uniform_int_distribution` in `Random`
 
 2. ##### Demonstrate OOP knowledge and the ability to use it
-  The architecture was designed based on small single-purposed classes that encapsulate data.\
-  The architecture relies on the use of interfaces and inheritance.\
-  Which also gives chances to leverage the power of polymorphism.\
-  The code follows RAII principle, favors containers and wrappers like smart pointers.\
+     The architecture was designed based on small single-purposed classes that encapsulate data.\
+     The architecture relies on the use of interfaces and inheritance.\
+     Which also gives chances to leverage the power of polymorphism.\
+     The code follows RAII principle, favors containers and wrappers like smart pointers.\
   
 3. ##### Demonstrate the ability to use STL
      The needs of my project regarding STL don't go much further than `std::vector` and `std::pair`.
