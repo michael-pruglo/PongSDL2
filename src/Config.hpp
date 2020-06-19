@@ -17,8 +17,8 @@ namespace config
     const double PADDLE_SPEED = 11.0;
 
     const int BALL_SIZE = 10;
-    const double BALL_SPEED_INIT = 3.7;
-    const double BALL_SPEED_MAX = 14.0;
+    const double BALL_SPEED_INIT = 5.0;
+    const double BALL_SPEED_MAX = 25.0;
     const double BALL_ACCELERATION_DELTA = 0.3;
     const int MAX_BALL_ANGLE = 70;
 

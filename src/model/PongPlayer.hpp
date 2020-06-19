@@ -6,6 +6,7 @@
 #include "../Config.hpp"
 #include "../utility/Position.hpp"
 #include "../utility/Rectangle.hpp"
+#include "../utility/MovementVector.hpp"
 #include "../view/TextSprite.hpp"
 #include "../view/RectSprite.hpp"
 
@@ -24,6 +25,7 @@ protected:
     inline void         increaseScore() { ++score; }
     inline Rectangle&   getPaddle() { return paddle; }
     inline void         update() { paddle.move(0, paddleVelocity*config::PADDLE_SPEED); }
+    virtual void        update(Position ballPosition, MovementVector ballVelocity) { update(); }
     inline void         startUp() { --paddleVelocity; capVelocity(); }
     inline void         finishUp() { ++paddleVelocity; capVelocity(); }
     inline void         startDown() { ++paddleVelocity; capVelocity(); }

@@ -130,6 +130,12 @@
 		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/model/PongPlayer.hpp">
 			<Option target="Pong"/>
 		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/utility/CollisionDetector.cpp">
+			<Option target="Pong"/>
+		</Unit>
+		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/utility/CollisionDetector.hpp">
+			<Option target="Pong"/>
+		</Unit>
 		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/utility/Logger.hpp">
 			<Option target="Pong"/>
 		</Unit>
@@ -140,9 +146,6 @@
 			<Option target="Pong"/>
 		</Unit>
 		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/utility/Random.hpp">
-			<Option target="Pong"/>
-		</Unit>
-		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/utility/Rectangle.cpp">
 			<Option target="Pong"/>
 		</Unit>
 		<Unit filename="C:/Users/mickl/ClionProjects/Pong/src/utility/Rectangle.hpp">

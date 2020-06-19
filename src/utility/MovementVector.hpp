@@ -9,7 +9,7 @@ struct MovementVector
     double angle; //radians
     double len;
 
-    Position apply(Position pos) const { return Position{pos.getX()+std::cos(angle)*len, pos.getY()+std::sin(angle)*len}; }
+    Position apply(Position pos) const { return Position{pos.getX()+std::cos(angle)*len, pos.getY()-std::sin(angle)*len}; }
 };
 
 

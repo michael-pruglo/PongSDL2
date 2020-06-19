@@ -2,13 +2,12 @@
 #define PONG_PONGBOT_HPP
 
 #include "PongPlayer.hpp"
-#include "../utility/MovementVector.hpp"
 
 class PongBot : public PongPlayer
 {
 public:
     explicit    PongBot(std::string name = "", Position position = Position()) : PongPlayer(name, position) {}
-    void        update(Position ballPosition, MovementVector ballVelocity);
+    void        update(Position ballPosition, MovementVector ballVelocity) override;
 
 private:
     double      botY;

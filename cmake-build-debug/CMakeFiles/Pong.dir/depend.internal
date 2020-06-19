@@ -68,6 +68,7 @@ CMakeFiles/Pong.dir/src/main.cpp.obj
  C:/Users/mickl/ClionProjects/Pong/src/model/Pong.hpp
  C:/Users/mickl/ClionProjects/Pong/src/model/PongBot.hpp
  C:/Users/mickl/ClionProjects/Pong/src/model/PongPlayer.hpp
+ C:/Users/mickl/ClionProjects/Pong/src/utility/CollisionDetector.hpp
  C:/Users/mickl/ClionProjects/Pong/src/utility/MovementVector.hpp
  C:/Users/mickl/ClionProjects/Pong/src/utility/Position.hpp
  C:/Users/mickl/ClionProjects/Pong/src/utility/Rectangle.hpp
@@ -157,6 +158,7 @@ CMakeFiles/Pong.dir/src/model/Pong.cpp.obj
  C:/Users/mickl/ClionProjects/Pong/src/model/Pong.hpp
  C:/Users/mickl/ClionProjects/Pong/src/model/PongBot.hpp
  C:/Users/mickl/ClionProjects/Pong/src/model/PongPlayer.hpp
+ C:/Users/mickl/ClionProjects/Pong/src/utility/CollisionDetector.hpp
  C:/Users/mickl/ClionProjects/Pong/src/utility/Logger.hpp
  C:/Users/mickl/ClionProjects/Pong/src/utility/MovementVector.hpp
  C:/Users/mickl/ClionProjects/Pong/src/utility/Position.hpp
@@ -270,13 +272,33 @@ CMakeFiles/Pong.dir/src/model/PongBot.cpp.obj
  C:/msys64/mingw64/include/SDL2/SDL_video.h
  C:/msys64/mingw64/include/SDL2/begin_code.h
  C:/msys64/mingw64/include/SDL2/close_code.h
+CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj
+ C:/Users/mickl/ClionProjects/Pong/src/Config.hpp
+ C:/Users/mickl/ClionProjects/Pong/src/controller/IRenderable.hpp
+ C:/Users/mickl/ClionProjects/Pong/src/controller/ISprite.hpp
+ C:/Users/mickl/ClionProjects/Pong/src/model/Ball.hpp
+ C:/Users/mickl/ClionProjects/Pong/src/utility/CollisionDetector.cpp
+ C:/Users/mickl/ClionProjects/Pong/src/utility/CollisionDetector.hpp
+ C:/Users/mickl/ClionProjects/Pong/src/utility/MovementVector.hpp
+ C:/Users/mickl/ClionProjects/Pong/src/utility/Position.hpp
+ C:/Users/mickl/ClionProjects/Pong/src/utility/Rectangle.hpp
+ C:/msys64/mingw64/include/SDL2/SDL_blendmode.h
+ C:/msys64/mingw64/include/SDL2/SDL_config.h
+ C:/msys64/mingw64/include/SDL2/SDL_endian.h
+ C:/msys64/mingw64/include/SDL2/SDL_error.h
+ C:/msys64/mingw64/include/SDL2/SDL_pixels.h
+ C:/msys64/mingw64/include/SDL2/SDL_platform.h
+ C:/msys64/mingw64/include/SDL2/SDL_rect.h
+ C:/msys64/mingw64/include/SDL2/SDL_render.h
+ C:/msys64/mingw64/include/SDL2/SDL_rwops.h
+ C:/msys64/mingw64/include/SDL2/SDL_stdinc.h
+ C:/msys64/mingw64/include/SDL2/SDL_surface.h
+ C:/msys64/mingw64/include/SDL2/SDL_video.h
+ C:/msys64/mingw64/include/SDL2/begin_code.h
+ C:/msys64/mingw64/include/SDL2/close_code.h
 CMakeFiles/Pong.dir/src/utility/Random.cpp.obj
  C:/Users/mickl/ClionProjects/Pong/src/utility/Random.cpp
  C:/Users/mickl/ClionProjects/Pong/src/utility/Random.hpp
-CMakeFiles/Pong.dir/src/utility/Rectangle.cpp.obj
- C:/Users/mickl/ClionProjects/Pong/src/utility/Position.hpp
- C:/Users/mickl/ClionProjects/Pong/src/utility/Rectangle.cpp
- C:/Users/mickl/ClionProjects/Pong/src/utility/Rectangle.hpp
 CMakeFiles/Pong.dir/src/view/GameWindow.cpp.obj
  C:/Users/mickl/ClionProjects/Pong/src/controller/IInputManager.hpp
  C:/Users/mickl/ClionProjects/Pong/src/controller/IRenderable.hpp

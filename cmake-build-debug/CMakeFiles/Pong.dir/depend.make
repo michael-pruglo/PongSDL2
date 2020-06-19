@@ -67,6 +67,7 @@ CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/model/Ball.hpp
 CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/model/Pong.hpp
 CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/model/PongBot.hpp
 CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/model/PongPlayer.hpp
+CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/utility/CollisionDetector.hpp
 CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/utility/MovementVector.hpp
 CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/utility/Position.hpp
 CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/utility/Rectangle.hpp
@@ -156,6 +157,7 @@ CMakeFiles/Pong.dir/src/model/Pong.cpp.obj: ../src/model/Pong.cpp
 CMakeFiles/Pong.dir/src/model/Pong.cpp.obj: ../src/model/Pong.hpp
 CMakeFiles/Pong.dir/src/model/Pong.cpp.obj: ../src/model/PongBot.hpp
 CMakeFiles/Pong.dir/src/model/Pong.cpp.obj: ../src/model/PongPlayer.hpp
+CMakeFiles/Pong.dir/src/model/Pong.cpp.obj: ../src/utility/CollisionDetector.hpp
 CMakeFiles/Pong.dir/src/model/Pong.cpp.obj: ../src/utility/Logger.hpp
 CMakeFiles/Pong.dir/src/model/Pong.cpp.obj: ../src/utility/MovementVector.hpp
 CMakeFiles/Pong.dir/src/model/Pong.cpp.obj: ../src/utility/Position.hpp
@@ -270,12 +272,32 @@ CMakeFiles/Pong.dir/src/model/PongBot.cpp.obj: C:/msys64/mingw64/include/SDL2/SD
 CMakeFiles/Pong.dir/src/model/PongBot.cpp.obj: C:/msys64/mingw64/include/SDL2/begin_code.h
 CMakeFiles/Pong.dir/src/model/PongBot.cpp.obj: C:/msys64/mingw64/include/SDL2/close_code.h
 
+CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: ../src/Config.hpp
+CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: ../src/controller/IRenderable.hpp
+CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: ../src/controller/ISprite.hpp
+CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: ../src/model/Ball.hpp
+CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: ../src/utility/CollisionDetector.cpp
+CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: ../src/utility/CollisionDetector.hpp
+CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: ../src/utility/MovementVector.hpp
+CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: ../src/utility/Position.hpp
+CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: ../src/utility/Rectangle.hpp
+CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: C:/msys64/mingw64/include/SDL2/SDL_blendmode.h
+CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: C:/msys64/mingw64/include/SDL2/SDL_config.h
+CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: C:/msys64/mingw64/include/SDL2/SDL_endian.h
+CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: C:/msys64/mingw64/include/SDL2/SDL_error.h
+CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: C:/msys64/mingw64/include/SDL2/SDL_pixels.h
+CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: C:/msys64/mingw64/include/SDL2/SDL_platform.h
+CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: C:/msys64/mingw64/include/SDL2/SDL_rect.h
+CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: C:/msys64/mingw64/include/SDL2/SDL_render.h
+CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: C:/msys64/mingw64/include/SDL2/SDL_rwops.h
+CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: C:/msys64/mingw64/include/SDL2/SDL_stdinc.h
+CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: C:/msys64/mingw64/include/SDL2/SDL_surface.h
+CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: C:/msys64/mingw64/include/SDL2/SDL_video.h
+CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: C:/msys64/mingw64/include/SDL2/begin_code.h
+CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj: C:/msys64/mingw64/include/SDL2/close_code.h
+
 CMakeFiles/Pong.dir/src/utility/Random.cpp.obj: ../src/utility/Random.cpp
 CMakeFiles/Pong.dir/src/utility/Random.cpp.obj: ../src/utility/Random.hpp
-
-CMakeFiles/Pong.dir/src/utility/Rectangle.cpp.obj: ../src/utility/Position.hpp
-CMakeFiles/Pong.dir/src/utility/Rectangle.cpp.obj: ../src/utility/Rectangle.cpp
-CMakeFiles/Pong.dir/src/utility/Rectangle.cpp.obj: ../src/utility/Rectangle.hpp
 
 CMakeFiles/Pong.dir/src/view/GameWindow.cpp.obj: ../src/controller/IInputManager.hpp
 CMakeFiles/Pong.dir/src/view/GameWindow.cpp.obj: ../src/controller/IRenderable.hpp

@@ -257,6 +257,33 @@ src/model/PongBot.cpp.s:
 	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/model/PongBot.cpp.s
 .PHONY : src/model/PongBot.cpp.s
 
+src/utility/CollisionDetector.obj: src/utility/CollisionDetector.cpp.obj
+
+.PHONY : src/utility/CollisionDetector.obj
+
+# target to build an object file
+src/utility/CollisionDetector.cpp.obj:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.obj
+.PHONY : src/utility/CollisionDetector.cpp.obj
+
+src/utility/CollisionDetector.i: src/utility/CollisionDetector.cpp.i
+
+.PHONY : src/utility/CollisionDetector.i
+
+# target to preprocess a source file
+src/utility/CollisionDetector.cpp.i:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.i
+.PHONY : src/utility/CollisionDetector.cpp.i
+
+src/utility/CollisionDetector.s: src/utility/CollisionDetector.cpp.s
+
+.PHONY : src/utility/CollisionDetector.s
+
+# target to generate assembly for a file
+src/utility/CollisionDetector.cpp.s:
+	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/utility/CollisionDetector.cpp.s
+.PHONY : src/utility/CollisionDetector.cpp.s
+
 src/utility/Random.obj: src/utility/Random.cpp.obj
 
 .PHONY : src/utility/Random.obj
@@ -283,33 +310,6 @@ src/utility/Random.s: src/utility/Random.cpp.s
 src/utility/Random.cpp.s:
 	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/utility/Random.cpp.s
 .PHONY : src/utility/Random.cpp.s
-
-src/utility/Rectangle.obj: src/utility/Rectangle.cpp.obj
-
-.PHONY : src/utility/Rectangle.obj
-
-# target to build an object file
-src/utility/Rectangle.cpp.obj:
-	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/utility/Rectangle.cpp.obj
-.PHONY : src/utility/Rectangle.cpp.obj
-
-src/utility/Rectangle.i: src/utility/Rectangle.cpp.i
-
-.PHONY : src/utility/Rectangle.i
-
-# target to preprocess a source file
-src/utility/Rectangle.cpp.i:
-	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/utility/Rectangle.cpp.i
-.PHONY : src/utility/Rectangle.cpp.i
-
-src/utility/Rectangle.s: src/utility/Rectangle.cpp.s
-
-.PHONY : src/utility/Rectangle.s
-
-# target to generate assembly for a file
-src/utility/Rectangle.cpp.s:
-	$(MAKE) -f CMakeFiles\Pong.dir\build.make CMakeFiles/Pong.dir/src/utility/Rectangle.cpp.s
-.PHONY : src/utility/Rectangle.cpp.s
 
 src/view/GameWindow.obj: src/view/GameWindow.cpp.obj
 
@@ -416,12 +416,12 @@ help:
 	@echo ... src/model/PongBot.obj
 	@echo ... src/model/PongBot.i
 	@echo ... src/model/PongBot.s
+	@echo ... src/utility/CollisionDetector.obj
+	@echo ... src/utility/CollisionDetector.i
+	@echo ... src/utility/CollisionDetector.s
 	@echo ... src/utility/Random.obj
 	@echo ... src/utility/Random.i
 	@echo ... src/utility/Random.s
-	@echo ... src/utility/Rectangle.obj
-	@echo ... src/utility/Rectangle.i
-	@echo ... src/utility/Rectangle.s
 	@echo ... src/view/GameWindow.obj
 	@echo ... src/view/GameWindow.i
 	@echo ... src/view/GameWindow.s

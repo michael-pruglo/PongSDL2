@@ -1,5 +1,9 @@
+#include <cassert>
+#include <iostream>
 #include "model/Pong.hpp"
 #include "controller/GameManager.hpp"
+
+#include "utility/CollisionDetector.hpp"
 
 int main(int argc, char* argv[])
 {
