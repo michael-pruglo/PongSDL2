@@ -1,4 +1,3 @@
-#include <iostream>
 #include "CollisionDetector.hpp"
 
 bool CollisionDetector::rectCollide(const Rectangle& rect1, const Rectangle& rect2)

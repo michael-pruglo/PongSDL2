@@ -10,7 +10,7 @@
 class TextSprite : public ISprite
 {
 public:
-    TextSprite(std::string text, int size, Position position = Position(), SDL_Color color = {255,255,255,255});
+         TextSprite(std::string text, int size, Position position = Position(), SDL_Color color = {255,255,255,255});
     void render(SDL_Renderer* renderer) const override;
 private:
     std::string txt;

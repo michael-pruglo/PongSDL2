@@ -10,6 +10,7 @@
 
 class Pong;
 
+
 class PongInputManager : public IInputManager
 {
 public:
@@ -19,6 +20,8 @@ public:
 private:
     Pong* pong;
 };
+
+
 
 class Pong : public IGame
 {

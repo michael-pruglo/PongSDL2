@@ -7,7 +7,6 @@ PongPlayer::PongPlayer(std::string name, Position position) :
 
 std::vector<std::unique_ptr<ISprite>> PongPlayer::getSprites() const
 {
-    //TODO: beautify
     std::vector<std::unique_ptr<ISprite>> res;
     res.push_back(std::unique_ptr<ISprite> {
             new TextSprite(nm,

@@ -2,7 +2,6 @@
 #define PONG_GAMEWINDOW_HPP
 
 #include <vector>
-#include <memory>
 #include "SDL.h"
 #include "SDL_ttf.h"
 #include "../controller/IRenderable.hpp"
@@ -11,7 +10,7 @@
 class GameWindow
 {
 public:
-    ~GameWindow();
+         ~GameWindow();
     bool init(const std::string& title, int width, int height);
     void handleEvents(IInputManager& inputManager);
     void render(const std::vector<IRenderable*>& itemsToRender) const;

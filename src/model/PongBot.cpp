@@ -1,5 +1,4 @@
 #include "PongBot.hpp"
-#include "../utility/Logger.hpp"
 
 void PongBot::update(Position ballPosition, MovementVector ballVelocity)
 {
@@ -16,15 +15,9 @@ void PongBot::update(Position ballPosition, MovementVector ballVelocity)
 void PongBot::meetTarget(double y)
 {
     if (y > botY+deltaPixels)
-    {
         startDown();
-        //Logger::logMessage("bot ", botY, " = [",botY-deltaPixels,",",botY+deltaPixels,"]  meeting target ", y, "    Bot decides to go down");
-    }
     else if (y < botY-deltaPixels)
-    {
         startUp();
-        //Logger::logMessage("bot ", botY, " = [",botY-deltaPixels,",",botY+deltaPixels,"]  meeting target ", y, "    Bot decides to go up");
-    }
     else
         stop();
 }

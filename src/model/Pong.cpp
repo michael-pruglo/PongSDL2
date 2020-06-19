@@ -10,6 +10,7 @@ Pong::Pong(Pong::GameMode mode) :
             std::shared_ptr<PongPlayer>{new PongBot   ("Bot",     Position(config::RIGHT_PADDLE_X, config::PADDLE_START_Y))}),
     inputManager(this)
 {
+    Logger::logMessage("Pong game initialized in mode PLAYER_VS_", (mode==GameMode::PLAYER_VS_PLAYER?"PLAYER":"BOT"));
 }
 
 std::vector<IRenderable *> Pong::getRenderedEntities()

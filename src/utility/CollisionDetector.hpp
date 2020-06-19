@@ -2,7 +2,6 @@
 #define PONG_COLLISIONDETECTOR_HPP
 
 #include "Rectangle.hpp"
-#include "MovementVector.hpp"
 #include "../model/Ball.hpp"
 
 class CollisionDetector

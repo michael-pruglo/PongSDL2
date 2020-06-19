@@ -8,17 +8,19 @@
 
 C:/Users/mickl/ClionProjects/Pong/src/Config.hpp
 
+C:/Users/mickl/ClionProjects/Pong/src/controller/GameManager.cpp
+GameManager.hpp
+C:/Users/mickl/ClionProjects/Pong/src/controller/GameManager.hpp
+../Config.hpp
+C:/Users/mickl/ClionProjects/Pong/src/Config.hpp
+
 C:/Users/mickl/ClionProjects/Pong/src/controller/GameManager.hpp
 memory
 -
-IRenderable.hpp
-C:/Users/mickl/ClionProjects/Pong/src/controller/IRenderable.hpp
 ../view/GameWindow.hpp
 C:/Users/mickl/ClionProjects/Pong/src/view/GameWindow.hpp
 IGame.hpp
 C:/Users/mickl/ClionProjects/Pong/src/controller/IGame.hpp
-IInputManager.hpp
-C:/Users/mickl/ClionProjects/Pong/src/controller/IInputManager.hpp
 
 C:/Users/mickl/ClionProjects/Pong/src/controller/IGame.hpp
 vector
@@ -50,6 +52,14 @@ C:/Users/mickl/ClionProjects/Pong/src/model/Pong.hpp
 controller/GameManager.hpp
 C:/Users/mickl/ClionProjects/Pong/src/controller/GameManager.hpp
 
+C:/Users/mickl/ClionProjects/Pong/src/model/Ball.cpp
+Ball.hpp
+C:/Users/mickl/ClionProjects/Pong/src/model/Ball.hpp
+../utility/Random.hpp
+C:/Users/mickl/ClionProjects/Pong/src/utility/Random.hpp
+../view/RectSprite.hpp
+C:/Users/mickl/ClionProjects/Pong/src/view/RectSprite.hpp
+
 C:/Users/mickl/ClionProjects/Pong/src/model/Ball.hpp
 ../controller/IRenderable.hpp
 C:/Users/mickl/ClionProjects/Pong/src/controller/IRenderable.hpp
@@ -61,6 +71,14 @@ C:/Users/mickl/ClionProjects/Pong/src/utility/Position.hpp
 C:/Users/mickl/ClionProjects/Pong/src/utility/Rectangle.hpp
 ../utility/MovementVector.hpp
 C:/Users/mickl/ClionProjects/Pong/src/utility/MovementVector.hpp
+
+C:/Users/mickl/ClionProjects/Pong/src/model/Pong.cpp
+Pong.hpp
+C:/Users/mickl/ClionProjects/Pong/src/model/Pong.hpp
+../utility/Logger.hpp
+C:/Users/mickl/ClionProjects/Pong/src/utility/Logger.hpp
+../utility/CollisionDetector.hpp
+C:/Users/mickl/ClionProjects/Pong/src/utility/CollisionDetector.hpp
 
 C:/Users/mickl/ClionProjects/Pong/src/model/Pong.hpp
 memory
@@ -76,7 +94,15 @@ C:/Users/mickl/ClionProjects/Pong/src/controller/IInputManager.hpp
 PongBot.hpp
 C:/Users/mickl/ClionProjects/Pong/src/model/PongBot.hpp
 
+C:/Users/mickl/ClionProjects/Pong/src/model/PongBot.cpp
+PongBot.hpp
 C:/Users/mickl/ClionProjects/Pong/src/model/PongBot.hpp
+
+C:/Users/mickl/ClionProjects/Pong/src/model/PongBot.hpp
+PongPlayer.hpp
+C:/Users/mickl/ClionProjects/Pong/src/model/PongPlayer.hpp
+
+C:/Users/mickl/ClionProjects/Pong/src/model/PongPlayer.cpp
 PongPlayer.hpp
 C:/Users/mickl/ClionProjects/Pong/src/model/PongPlayer.hpp
 
@@ -98,6 +124,20 @@ C:/Users/mickl/ClionProjects/Pong/src/view/TextSprite.hpp
 ../view/RectSprite.hpp
 C:/Users/mickl/ClionProjects/Pong/src/view/RectSprite.hpp
 
+C:/Users/mickl/ClionProjects/Pong/src/utility/CollisionDetector.cpp
+CollisionDetector.hpp
+C:/Users/mickl/ClionProjects/Pong/src/utility/CollisionDetector.hpp
+
+C:/Users/mickl/ClionProjects/Pong/src/utility/CollisionDetector.hpp
+Rectangle.hpp
+C:/Users/mickl/ClionProjects/Pong/src/utility/Rectangle.hpp
+../model/Ball.hpp
+C:/Users/mickl/ClionProjects/Pong/src/model/Ball.hpp
+
+C:/Users/mickl/ClionProjects/Pong/src/utility/Logger.hpp
+iostream
+-
+
 C:/Users/mickl/ClionProjects/Pong/src/utility/MovementVector.hpp
 cmath
 -
@@ -108,14 +148,24 @@ C:/Users/mickl/ClionProjects/Pong/src/utility/Position.hpp
 utility
 -
 
+C:/Users/mickl/ClionProjects/Pong/src/utility/Random.hpp
+random
+-
+
 C:/Users/mickl/ClionProjects/Pong/src/utility/Rectangle.hpp
 Position.hpp
 C:/Users/mickl/ClionProjects/Pong/src/utility/Position.hpp
 
+C:/Users/mickl/ClionProjects/Pong/src/view/GameWindow.cpp
+GameWindow.hpp
+C:/Users/mickl/ClionProjects/Pong/src/view/GameWindow.hpp
+../utility/Logger.hpp
+C:/Users/mickl/ClionProjects/Pong/src/utility/Logger.hpp
+../Config.hpp
+C:/Users/mickl/ClionProjects/Pong/src/Config.hpp
+
 C:/Users/mickl/ClionProjects/Pong/src/view/GameWindow.hpp
 vector
--
-memory
 -
 SDL.h
 C:/Users/mickl/ClionProjects/Pong/src/view/SDL.h
@@ -126,11 +176,23 @@ C:/Users/mickl/ClionProjects/Pong/src/controller/IRenderable.hpp
 ../controller/IInputManager.hpp
 C:/Users/mickl/ClionProjects/Pong/src/controller/IInputManager.hpp
 
+C:/Users/mickl/ClionProjects/Pong/src/view/RectSprite.cpp
+RectSprite.hpp
+C:/Users/mickl/ClionProjects/Pong/src/view/RectSprite.hpp
+
 C:/Users/mickl/ClionProjects/Pong/src/view/RectSprite.hpp
 ../controller/ISprite.hpp
 C:/Users/mickl/ClionProjects/Pong/src/controller/ISprite.hpp
 ../utility/Rectangle.hpp
 C:/Users/mickl/ClionProjects/Pong/src/utility/Rectangle.hpp
+
+C:/Users/mickl/ClionProjects/Pong/src/view/TextSprite.cpp
+TextSprite.hpp
+C:/Users/mickl/ClionProjects/Pong/src/view/TextSprite.hpp
+../utility/Logger.hpp
+C:/Users/mickl/ClionProjects/Pong/src/utility/Logger.hpp
+../Config.hpp
+C:/Users/mickl/ClionProjects/Pong/src/Config.hpp
 
 C:/Users/mickl/ClionProjects/Pong/src/view/TextSprite.hpp
 string

@@ -218,7 +218,6 @@ CMakeFiles/Pong.dir/src/model/PongBot.cpp.obj: ../src/controller/ISprite.hpp
 CMakeFiles/Pong.dir/src/model/PongBot.cpp.obj: ../src/model/PongBot.cpp
 CMakeFiles/Pong.dir/src/model/PongBot.cpp.obj: ../src/model/PongBot.hpp
 CMakeFiles/Pong.dir/src/model/PongBot.cpp.obj: ../src/model/PongPlayer.hpp
-CMakeFiles/Pong.dir/src/model/PongBot.cpp.obj: ../src/utility/Logger.hpp
 CMakeFiles/Pong.dir/src/model/PongBot.cpp.obj: ../src/utility/MovementVector.hpp
 CMakeFiles/Pong.dir/src/model/PongBot.cpp.obj: ../src/utility/Position.hpp
 CMakeFiles/Pong.dir/src/model/PongBot.cpp.obj: ../src/utility/Rectangle.hpp

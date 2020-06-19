@@ -4,7 +4,7 @@
 #include <vector>
 #include "IInputManager.hpp"
 
-class IGame //TODO: rename interfaces to IName
+class IGame
 {
 public:
     virtual std::string                 getTitle() const = 0;

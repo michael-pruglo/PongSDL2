@@ -2,10 +2,8 @@
 #define PONG_GAMEMANAGER_HPP
 
 #include <memory>
-#include "IRenderable.hpp"
 #include "../view/GameWindow.hpp"
 #include "IGame.hpp"
-#include "IInputManager.hpp"
 
 class GameManager
 {
