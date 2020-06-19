@@ -68,7 +68,6 @@ CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/model/Ball.hpp
 CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/model/Pong.hpp
 CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/model/PongBot.hpp
 CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/model/PongPlayer.hpp
-CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/utility/CollisionDetector.hpp
 CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/utility/MovementVector.hpp
 CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/utility/Position.hpp
 CMakeFiles/Pong.dir/src/main.cpp.obj: ../src/utility/Rectangle.hpp

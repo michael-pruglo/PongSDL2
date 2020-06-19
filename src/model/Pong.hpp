@@ -25,7 +25,7 @@ class Pong : public IGame
 public:
     enum class GameMode { PLAYER_VS_PLAYER, PLAYER_VS_BOT };
 public:
-                                Pong(GameMode mode = GameMode::PLAYER_VS_BOT);
+                                Pong(GameMode mode = GameMode::PLAYER_VS_PLAYER);
     std::string                 getTitle() const override { return "Pong"; }
     std::vector<IRenderable*>   getRenderedEntities() override;
     IInputManager&              getInputManager() override { return inputManager; }

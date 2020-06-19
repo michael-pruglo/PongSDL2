@@ -69,7 +69,6 @@ CMakeFiles/Pong.dir/src/main.cpp.obj
  C:/Users/mickl/ClionProjects/Pong/src/model/Pong.hpp
  C:/Users/mickl/ClionProjects/Pong/src/model/PongBot.hpp
  C:/Users/mickl/ClionProjects/Pong/src/model/PongPlayer.hpp
- C:/Users/mickl/ClionProjects/Pong/src/utility/CollisionDetector.hpp
  C:/Users/mickl/ClionProjects/Pong/src/utility/MovementVector.hpp
  C:/Users/mickl/ClionProjects/Pong/src/utility/Position.hpp
  C:/Users/mickl/ClionProjects/Pong/src/utility/Rectangle.hpp
